@@ -1,0 +1,64 @@
+name: 'Build Jupyterbook'
+description: 'Build the Jupyterbook with desired run features'
+
+inputs:
+  jb-cache:
+    description: “Set up the Jupyterbook Cache (boolean)”
+    required: true
+  publish-to-gh:
+    description: “Publish to GitHub Pages (boolean)”
+    required: true
+  jb-save:
+    description: "Save the Jupyterbook Build (boolean)"
+    required: true
+  token:
+    description: 'A GitHub Personal Access Token (for publishing)'
+    required: false
+    default: '0'
+
+runs:
+  using: "composite"
+  steps:
+    - name: Setup JupyterBook Cache
+      if: inputs.jb-cache == 'true'
+      uses: actions/cache@v4
+      with:
+        path: ./book/_build
+        # NOTE: change key to "jupyterbook-N+1" to force rebuilding cache
+        key: jupyterbook-0
+
+    - uses: ./.github/actions/setupconda
+
+    - name: Build JupyterBook
+      shell: bash -l {0}
+      run: |
+        ./scripts/build_resources.sh
+
+    - name: Dump Build Logs
+      if: always()
+      shell: bash -l {0}
+      run: |
+        if (test -a book/_build/html/reports/*log); then cat book/_build/html/reports/*log ; fi
+
+    - name: Upload Pages HTML
+      if: inputs.publish-to-gh == 'true'
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: book/_build/html
+
+    - name: Setup GitHub Pages
+      if: inputs.publish-to-gh == 'true'
+      uses: actions/configure-pages@v5
+
+    - name: Deploy to GitHub Pages
+      if: inputs.publish-to-gh == 'true'
+      id: deployment
+      uses: actions/deploy-pages@v4
+
+    - name: Upload Complete Build Folder
+      if: ${{ always() && inputs.jb-save == 'true'}}
+      uses: actions/upload-artifact@v4
+      with:
+        name: build-${{ runner.os }}
+        path: book/_build/
+

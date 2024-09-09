@@ -1,0 +1,23 @@
+- title: Anthony Arendt
+  avatar: https://avatars.githubusercontent.com/u/4993098?v=4?s=100
+  role: Senior Data Science Fellow
+  organizations:
+    - name: eScience Institute
+    - name: Applied Physics Laboratory
+  bio: Anthony is leading the eScience Institute's Hackweek-as-a-Service program.
+    He is an advocate for open, inclusive and collaborative science.
+    He has experience teaching GIS and has been the lead organizer for multiple earth-science themed hackweeks.
+    His background is in cryospheric science and remote sensing.
+  expertise:
+    - open science
+    - community building
+    - GIS
+    - SQL
+    - glaciers
+    - Python
+  social:
+    - icon: github
+      link: https://github.com/aaarendt
+  user_groups:
+    - Lead Hackweek Organizer
+

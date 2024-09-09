@@ -1,0 +1,21 @@
+- title: Joachim Meyer
+  avatar: https://avatars.githubusercontent.com/u/178649?v=4
+  role: Senior Research Scholar
+  organizations:
+    - name: Boise State University
+  bio: >
+    Joe is a research scientist at Boise State University with a focus
+    on physical based snow modeling development and operational application.
+    He has a background in software development and would love to see more
+    software development best practices, open source software, and open science
+    principles being adapted throughout the research community.
+  expertise:
+    - Software Development
+    - Python
+    - git, GDAL, anything in the Terminal really ...
+    - Modeling
+  social:
+    - icon: github
+      link: https://github.com/jomey
+  user_groups:
+    - Technology Specialist

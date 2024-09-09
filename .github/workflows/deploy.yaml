@@ -1,0 +1,45 @@
+name: Deploy
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'book/**'
+      - '{{ cookiecutter.repo_directory }}/**'
+      - 'scripts/**'
+      - '.github/workflows/deploy.yaml'
+      - 'cookiecutter.yaml'
+
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Configure NASA Earthdata Login
+      continue-on-error: true
+      env:
+        EARTHDATA_USER: ${{ secrets.EARTHDATA_USER}}
+        EARTHDATA_PASS: ${{ secrets.EARTHDATA_PASS }}
+      run: |
+        echo "machine urs.earthdata.nasa.gov login $EARTHDATA_USER password $EARTHDATA_PASS" > ~/.netrc
+        chmod 0600 ~/.netrc
+
+    - uses: ./.github/actions/buildresources
+      with:
+        jb-cache: false
+        publish-to-gh: true
+        jb-save: true
+        token:  ${{ secrets.GITHUB_TOKEN }}

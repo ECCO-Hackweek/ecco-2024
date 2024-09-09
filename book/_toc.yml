@@ -1,0 +1,32 @@
+# Table of content
+# Learn more at https://jupyterbook.org/customize/toc.html
+root: intro
+format: jb-book
+parts:
+- caption: Details
+  chapters:
+    - file: logistics
+    - title: Schedule
+      url: https://uwhackweek.github.io/jupyterbook-template/index.html?jump_to=schedule
+    - title: Team
+      url: https://uwhackweek.github.io/jupyterbook-template/index.html?jump_to=team
+    - file: CoC
+- caption: Preparation
+  chapters:
+    - file: preliminary/index
+    - file: preliminary/checklist
+    - file: preliminary/git
+- caption: Tutorials
+  chapters:
+    - file: tutorials/index
+      sections:
+        - file: tutorials/example/tutorial-notebook
+- caption: Projects
+  chapters:
+    - file: projects/index
+- caption: Reference
+  chapters:
+    - file: reference/glossary
+    - file: reference/bibliography
+    - file: reference/questions
+

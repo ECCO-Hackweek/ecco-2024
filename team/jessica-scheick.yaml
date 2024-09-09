@@ -1,0 +1,27 @@
+- title: Jessica Scheick
+  avatar: https://avatars.githubusercontent.com/u/11756442?v=4
+  role: Research Assistant Professor
+  organizations:
+    - name: University of New Hampshire
+    - name: eScience
+  bio: Jessica is a glaciologist, remote sensing specialist, open science advocate and educator,
+    collaborative developer, open-source software contributor and maintainer, and community manager.
+    She enjoys weaving her many roles together to work with others to build software that makes it easier
+    for everyone to access and manipulate data, and she's especially fond of detecting icebergs.
+  expertise:
+    - open science
+    - collaborative development
+    - Python
+    - git
+    - GitHub
+    - glaciers
+    - ICESat-2/icepyx
+  social:
+    - icon: github
+      link: https://github.com/jessicas11
+    - icon: github
+      link: https://github.com/icesat2py
+  user_groups:
+    - Lead Hackweek Organizer
+    - Tutorial Lead
+    - Project Team Lead

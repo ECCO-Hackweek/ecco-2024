@@ -1,0 +1,30 @@
+# Edit this file to add dependencies to environment,
+# Then run `./lock-environment.sh` to generate reproducible lock files
+
+# !!! If you are developing the website locally use the existing lock files
+# for your platform (`conda create --name hackweek --file conda-osx-64.lock`)
+name: hackweek
+channels:
+  - conda-forge
+dependencies:
+  - ipyleaflet
+  - jupyter-book<2
+  - jupyter-resource-usage
+  - jupyterhub-singleuser
+  - jupyterlab
+  - jupytext
+  - pip
+  - python
+  - sphinxcontrib-bibtex
+  # For building the Splashpage
+  - cookiecutter
+  # Dependencies of jinja-markdown:
+  - jinja2>=2.11
+  - pygments>=2.6.1
+  - pymdown-extensions>=7.1
+  - pip:
+    - jinja-markdown==1.210911
+platforms:
+  - linux-64
+  - osx-64
+  - osx-arm64

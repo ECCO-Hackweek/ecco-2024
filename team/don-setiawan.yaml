@@ -1,0 +1,24 @@
+- title: Don Setiawan
+  avatar: https://avatars.githubusercontent.com/u/17802172?v=4
+  role: Research Software Engineer
+  organizations:
+    - name: School of Oceanography
+      url: https://www.ocean.washington.edu/home/Don_Setiawan
+    - name: University of Washington
+  bio: I am a Research Software Engineer at the University of Washington with a
+    strong focus in designing, developing, and maintaining scientific data analysis
+    systems. I am a contributor to various open source software. I learning new
+    technologies and apply them in my work.
+  expertise:
+    - Geospatial Information Systems (GIS)
+    - Data Engineering / Data Science
+    - Software Engineering
+    - Web Development
+    - DevOps/GitOps
+    - Oceanography
+    - Python
+  social:
+    - icon: github
+      link: https://github.com/lsetiawan
+  user_groups:
+    - Technology Specialist
