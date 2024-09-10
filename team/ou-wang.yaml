@@ -1,0 +1,17 @@
+- title: Ou Wang 
+  avatar: https://science.jpl.nasa.gov/media/images/OuWang.max-255x355.jpg
+  role: Technologist 
+  organizations:
+    - name: Jet Propulsion Laboratory
+  bio: Ou (pronounced like the letter 'O') has a background in ocean state estimation, sea level changes, and large-scale ocean dynamics and thermodynamics.
+  expertise:
+    - state estimation
+    - attribution and prediction using adjoint model
+    - MITgcm
+    - Python
+    - open science
+  social:
+    - icon: github
+      link: https://github.com/ecco-group
+  user_groups:
+    - Hackweek Organizer
