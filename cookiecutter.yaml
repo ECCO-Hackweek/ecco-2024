@@ -34,13 +34,13 @@ schedule:
 sponsors:
   description: ''
   organizations:
-  - name: eScience Institute
+  - name: NASA Physical Oceanography; Modelling, Analysis, and Prediction (MAP); and Cryosphere Programs
     website: ''
     logo_url: https://ecco-hackweek.github.io/ecco-2024/assets/nasa_logo.png
 footer:
   social:
   - icon: github
-    link: https://github.com/uwhackweek/
+    link: https://github.com/ECCO-Hackweek/ecco-2024/
 _copy_without_render:
 - assets
 _extensions:
