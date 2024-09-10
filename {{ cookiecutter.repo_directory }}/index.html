@@ -38,7 +38,7 @@
                 <div class="site-logo">
                     <a class="scrollto" href="#hero-block">
                         <span class="logo-icon-text">
-                            UW eScience Hackweek
+                            NASA ECCO Hackweek
                         </span>
                     </a>
                 </div>
@@ -159,7 +159,7 @@
         {%- if 'links' in cookiecutter.about %}
             <div class="hero-cta text-center mb-4">
                 <h4 class="mb-3 text-center">
-                    Past Events:
+                     Recent Hackweek Events from Other Groups:
                 </h4>
                 {%- for link in cookiecutter.about.links %}
                     <a class="btn btn-primary btn-lg mb-3 mx-2"
@@ -197,6 +197,20 @@
             <div
                 class="section-intro text-center single-col-max mx-auto text-white mb-3">
                 {{cookiecutter.applicant_info}}
+
+                {%- if 'apply' in cookiecutter %}
+                <div class="navbar-btn order-lg-2">
+                    <a class="btn btn-secondary" 
+                       {%- if 'url' in cookiecutter.apply %}
+                       href="{{ cookiecutter.apply.url }}"
+                       target="_blank"
+                       {%- endif %}
+                    >
+                    {{ cookiecutter.apply.title }}
+                    </a>
+                </div>
+                {%- endif %}
+
             </div>
         </div>
     </div>
