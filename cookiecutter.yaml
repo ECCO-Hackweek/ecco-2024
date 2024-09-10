@@ -5,28 +5,28 @@ apply:
   title: Application coming soon
 banner:
   description: An awesome learning event.
-  start_date: XX Month
-  end_date: XX Month
-  year: 2022
-  location: Seattle, WA
+  start_date: 14 October
+  end_date: 18 October
+  year: 2024
+  location: Pasadena, CA
   links:
   - url: intro.html
     title: Event Jupyter Book
     new_window: false
-  image: https://geohackweek.github.io/assets/images/banner.jpg
+#  image: https://geohackweek.github.io/assets/images/banner.jpg
+  image: https://ecco-hackweek.github.io/ecco-2024/assets/ecco_hw2024_banner.png
 # The opening session of the event with UTC offset
-event_countdown: "2024-08-07T08:30:00-07:00"
+event_countdown: "2024-10-14T08:30:00-07:00"
 about:
   description: Hackweeks are participant-driven events that strive to create
     welcoming spaces for participants to learn new things, build community and
-    gain hands-on experience with collaboration and team science
+    gain hands-on experience with collaboration and team science.
   learn_more: https://escience.washington.edu/using-data-science/hackweeks
   links:
     - url: '#'
       title: A sample link
       new_window: True
-applicant_info: UW Hackweek 2022 will take place in October 2022 (virtual or in-person
-  TBD). Applications have not yet opened, but should be anticipated in September 2022.
+applicant_info: The 2024 ECCO Hackweek will take place in October 2024. Applications are open until September 15, 2024.
 team:
   !include team/team.yaml
 schedule:
@@ -36,7 +36,7 @@ sponsors:
   organizations:
   - name: eScience Institute
     website: ''
-    logo_url: https://escience.washington.edu/wp-content/uploads/2015/10/Logo_eScience-stacked.png
+    logo_url: https://ecco-hackweek.github.io/ecco-2024/assets/nasa_logo.png
 footer:
   social:
   - icon: github
