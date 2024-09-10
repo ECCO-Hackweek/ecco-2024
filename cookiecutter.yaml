@@ -2,9 +2,9 @@ repo_directory: html
 name: ECCO Hackweek
 apply:
   url: https://forms.gle/kSAw4Meg2ByAgnj99
-  title: Application coming soon
+  title: Apply Here
 banner:
-  description: An awesome learning event.
+  description: "Tutorials + peer-to-peer learning + project based teamwork using NASA\'s ECCO Ocean State Estimate". 
   start_date: 14 October
   end_date: 18 October
   year: 2024
@@ -20,11 +20,16 @@ event_countdown: "2024-10-14T08:30:00-07:00"
 about:
   description: Hackweeks are participant-driven events that strive to create
     welcoming spaces for participants to learn new things, build community and
-    gain hands-on experience with collaboration and team science.
+    gain hands-on experience with collaboration and team science. 
+    The 2024 ECCO Hackweek is inspired by and leverages material developed by the 
+    hackweek team at the University of Washington&#39;s eScience Insitute.
   learn_more: https://escience.washington.edu/using-data-science/hackweeks
   links:
-    - url: '#'
-      title: A sample link
+    - url: https://oceanhackweek.org/ohw24/
+      title: OceanHackWeek 2024
+      new_window: True
+    - url: https://icesat-2.hackweek.io/
+      title: ICESat-2 Hackweek 2024
       new_window: True
 applicant_info: The 2024 ECCO Hackweek will take place in October 2024. Applications are open until September 15, 2024.
 team:
@@ -35,8 +40,9 @@ sponsors:
   description: ''
   organizations:
   - name: NASA Physical Oceanography; Modelling, Analysis, and Prediction (MAP); and Cryosphere Programs
-    website: ''
-    logo_url: https://ecco-hackweek.github.io/ecco-2024/assets/nasa_logo.png
+    website: https://science.nasa.gov/earth-science/focus-areas/climate-variability-and-change/ocean-physics/
+    logo_url: https://github.com/ECCO-Hackweek/ecco-2024/blob/main/assets/ecco_hw2024_banner.png
+
 footer:
   social:
   - icon: github
