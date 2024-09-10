@@ -1,7 +1,7 @@
 repo_directory: html
 name: ECCO Hackweek
 apply:
-  url: '#'
+  url: https://forms.gle/kSAw4Meg2ByAgnj99
   title: Application coming soon
 banner:
   description: An awesome learning event.
@@ -13,8 +13,8 @@ banner:
   - url: intro.html
     title: Event Jupyter Book
     new_window: false
-#  image: https://geohackweek.github.io/assets/images/banner.jpg
-  image: https://ecco-hackweek.github.io/ecco-2024/assets/ecco_hw2024_banner.png
+  #image: https://ecco-hackweek.github.io/ecco-2024/assets/ecco_hw2024_banner.png
+  image: https://github.com/ECCO-Hackweek/ecco-2024/blob/main/assets/ecco_hw2024_banner.png
 # The opening session of the event with UTC offset
 event_countdown: "2024-10-14T08:30:00-07:00"
 about:
