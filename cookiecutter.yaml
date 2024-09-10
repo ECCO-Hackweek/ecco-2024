@@ -14,7 +14,9 @@ banner:
     title: Event Jupyter Book
     new_window: false
   #image: https://ecco-hackweek.github.io/ecco-2024/assets/ecco_hw2024_banner.png
-  image: https://github.com/ECCO-Hackweek/ecco-2024/blob/main/assets/ecco_hw2024_banner.png
+  #image: https://github.com/ECCO-Hackweek/ecco-2024/blob/main/assets/ecco_hw2024_banner.png
+  #image: https://github.com/ECCO-Hackweek/ecco-2024/blob/main/assets/banner.png
+  image: https://www.nasa.gov/wp-content/uploads/2024/08/iss071e522460.jpg
 # The opening session of the event with UTC offset
 event_countdown: "2024-10-14T08:30:00-07:00"
 about:
@@ -39,10 +41,9 @@ schedule:
 sponsors:
   description: ''
   organizations:
-  - name: NASA Physical Oceanography; Modelling, Analysis, and Prediction (MAP); and Cryosphere Programs
+  - name: "NASA Physical Oceanography; Modelling, Analysis, and Prediction (MAP); and Cryosphere Programs"
     website: https://science.nasa.gov/earth-science/focus-areas/climate-variability-and-change/ocean-physics/
-    logo_url: https://github.com/ECCO-Hackweek/ecco-2024/blob/main/assets/ecco_hw2024_banner.png
-
+    logo_url: https://upload.wikimedia.org/wikipedia/commons/e/e5/NASA_logo.svg
 footer:
   social:
   - icon: github

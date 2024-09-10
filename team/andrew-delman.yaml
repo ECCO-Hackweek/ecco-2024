@@ -1,0 +1,18 @@
+- title: Andrew Delman
+  avatar: https://science.jpl.nasa.gov/media/images/AndrewDelman.max-255x355.jpg 
+  role: Scientist 
+  organizations:
+    - name: UCLA, Jet Propulsion Laboratory
+  bio: Andrew has a background in the variability and impacts of oceanic mesoscale phenomena, including eddies and planetary waves. The application of satellite gravimetry (GRACE/GRACE-FO) for observing deep ocean variability.
+  expertise:
+    - Intraseasonal, interannual, and decadal climate variability
+    - Satellite oceanography and meteorology 
+    - MITgcm
+    - Python
+    - open science
+  social:
+    - icon: github
+      link: https://github.com/ecco-group
+  user_groups:
+    - Hackweek Organizer
+

@@ -1,0 +1,16 @@
+- title: Ian Fenty 
+  avatar: https://science.jpl.nasa.gov/media/images/IanFenty.max-255x355.jpg
+  role: Scientist 
+  organizations:
+    - name: Jet Propulsion Laboratory
+  bio: Ian has a background in Ocean State Estimation and Ocean-Ice Interaction
+  expertise:
+    - state estimation
+    - MITgcm
+    - Python
+    - open science
+  social:
+    - icon: github
+      link: https://github.com/ecco-group
+  user_groups:
+    - Lead Hackweek Organizer
