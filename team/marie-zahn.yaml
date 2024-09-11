@@ -1,0 +1,16 @@
+- title: Marie Zahn
+  avatar: https://github.com/mjzahn.png
+  role: Postdoc
+  organizations:
+    - name: Jet Propulsion Laboratory and University of Washington
+  bio: Marie specializes in Arctic physical oceanography and polar ecology. She combines in situ measurements with ocean modeling to investigate seasonal changes and the influence of sea ice on upper ocean structure in the Arctic.
+  expertise:
+    - Arctic physical oceanography
+    - Cloud-optimized dataset development
+    - Python
+    - Open science
+  social:
+    - icon: github
+      link: https://github.com/mjzahn
+  user_groups:
+    - Hackweek Mentor
