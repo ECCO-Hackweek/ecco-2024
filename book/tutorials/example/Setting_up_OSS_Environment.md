@@ -37,7 +37,7 @@ Forking and cloning a repository is beneficial because it:
 - You can freely experiment, make changes, and develop features without affecting the original project.
 - After cloning the forked repository, you can sync updates from the original repository and contribute back via pull requests.
 
-To fork the "ECCO-v4-Python Tutorial", do the following:
+### Fork the "ECCO-v4-Python Tutorial"
 1. Log into your GitHub account
 2. Navigate to the [ECCO-v4-Python Tutorial GitHub Page](https://github.com/ECCO-GROUP/ECCO-v4-Python-Tutorial/tree/master)
 3. Click *Gray* Fork Button: [Detailed Forking Instructions](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
@@ -45,12 +45,21 @@ To fork the "ECCO-v4-Python Tutorial", do the following:
 5. Click *Green* "Create fork" button
 6. After a few seconds, a new page will appear with your new forked repository
 
-To clone the "ECCO-v4-Python Tutorial" to your OSS account, do the following:
-1. Click *Green* "<> Code" button
+### Clone the "ECCO-v4-Python Tutorial" to your OSS account
+1. Click *Green* "\<\> Code" button
 2. In the "Local Tab", select the "SSH" tab
 > [!NOTE]
 > By selecting the SSH tab, you can contribute code using your GitHub Identity on the OSS that you set up in [Linking your GitHub Account](#linking-your-github-account).
+3. Copy the the `git@github.com:[...]` link to the clipboard (select and copy or use handy copy button with the two squares)
+4. Return to the OSS JupyterLab terminal window
+5. go to your home directory `cd ~/`
+6. clone the link that you copied: ex) ```git clone git@github.com:...```
+   - enter your ssh key passphrase if you used one when creating the key
 
+Now you should have a directory called `/home/jovyan/ECCO-v4-Python-Tutorial`
+
+
+     
 
 
 
