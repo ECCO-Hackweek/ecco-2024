@@ -1,6 +1,6 @@
 # Example headings 
 
-## Linking your github account
+## Linking your GitHub account
 
 To link your existing github account to the OSS, you need to make SSH keys on the OSS and then tell github about your key.
 
@@ -28,6 +28,32 @@ To link your existing github account to the OSS, you need to make SSH keys on th
    - Click the *Green button*: "Add SSH key"
    - Verify the new key appears on the list of "SSH keys" on the [GitHub SSH keys page](https://github.com/settings/keys)
     
+## Clone the ECCO-v4-Python Tutorial to OSS
+
+By default, the OSS system does not have the "ECCO-v4-Python Tutorial" and its associated Jupyter Notebooks and Python codes. If you want to have a local copy of these files then we suggest that you fork and clone the repo to your OSS account.
+
+Forking and cloning a repository is beneficial because it:
+- Forking allows you to create your own copy of a project under your GitHub account.
+- You can freely experiment, make changes, and develop features without affecting the original project.
+- After cloning the forked repository, you can sync updates from the original repository and contribute back via pull requests.
+
+To fork the "ECCO-v4-Python Tutorial", do the following:
+1. Log into your GitHub account
+2. Navigate to the [ECCO-v4-Python Tutorial GitHub Page](https://github.com/ECCO-GROUP/ECCO-v4-Python-Tutorial/tree/master)
+3. Click *Gray* Fork Button: [Detailed Forking Instructions](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
+4. In the "Create a new fork" page, choose yourself as the "Owner"
+5. Click *Green* "Create fork" button
+6. After a few seconds, a new page will appear with your new forked repository
+
+To clone the "ECCO-v4-Python Tutorial" to your OSS account, do the following:
+1. Click *Green* "<> Code" button
+2. In the "Local Tab", select the "SSH" tab
+> [!NOTE]
+> By selecting the SSH tab, you can contribute code using your GitHub Identity on the OSS that you set up in [Linking your GitHub Account](#linking-your-github-account).
+
+
+
+
 
 ## This'll  be a _Helpful_ Section About the Greek Letter Θ!
 A heading containing characters not allowed in fragments, UTF-8 characters, two consecutive spaces between the first and second words, and formatting.
