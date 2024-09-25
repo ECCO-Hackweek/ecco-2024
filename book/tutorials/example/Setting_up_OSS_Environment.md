@@ -1,4 +1,9 @@
-# Example headings 
+# Setting up your OSS Environment
+
+This tutorial describes how to 1) link your existing GitHub account to your new OSS environment and 2) fork and clone the "ECCO-v4-Python Tutorial" GitHub repository onto your local OSS disk.
+
+[Linking your GitHub Account](#linking-your-github-account).\
+[Fork and Clone the ECCO-v4-Python Tutorial](#fork-and-clone-the-ecco-v4-python-tutorial)
 
 ## Linking your GitHub account
 
@@ -28,7 +33,7 @@ To link your existing github account to the OSS, you need to make SSH keys on th
    - Click the *Green button*: "Add SSH key"
    - Verify the new key appears on the list of "SSH keys" on the [GitHub SSH keys page](https://github.com/settings/keys)
     
-## Clone the ECCO-v4-Python Tutorial to OSS
+## Fork and Clone the ECCO-v4-Python Tutorial
 
 By default, the OSS system does not have the "ECCO-v4-Python Tutorial" and its associated Jupyter Notebooks and Python codes. If you want to have a local copy of these files then we suggest that you fork and clone the repo to your OSS account.
 
@@ -45,7 +50,7 @@ Forking and cloning a repository is beneficial because it:
 5. Click *Green* "Create fork" button
 6. After a few seconds, a new page will appear with your new forked repository
 
-### Clone the "ECCO-v4-Python Tutorial" to your OSS account
+## Clone the "ECCO-v4-Python Tutorial"
 1. Click *Green* "\<\> Code" button
 2. In the "Local Tab", select the "SSH" tab
 > [!NOTE]
