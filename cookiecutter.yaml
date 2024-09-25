@@ -10,8 +10,8 @@ banner:
   year: 2024
   location: Pasadena, CA
   links:
-#  - url: intro.html
-  - url: '#'
+  - url: intro.html
+#  - url: '#'
     title: Event Jupyter Book (Work in Progress)
     new_window: false
   #image: https://ecco-hackweek.github.io/ecco-2024/assets/ecco_hw2024_banner.png
