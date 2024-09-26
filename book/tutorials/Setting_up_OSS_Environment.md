@@ -1,5 +1,7 @@
 # Setting up your OSS Environment
 
+Ian Fenty and Andrew Delman, 2024-09-25
+
 This tutorial describes how to 1) link your existing GitHub account to your new OSS environment and 2) fork and clone the "ECCO-v4-Python Tutorial" GitHub repository onto your local OSS disk.
 
 [Linking your GitHub Account](#linking-your-github-account).\
@@ -33,24 +35,24 @@ To link your existing github account to the OSS, you need to make SSH keys on th
    - Click the *Green button*: "Add SSH key"
    - Verify the new key appears on the list of "SSH keys" on the [GitHub SSH keys page](https://github.com/settings/keys)
     
-## Fork and Clone the ECCO-v4-Python Tutorial
+## Fork and Clone the "ecco-2024" repository
 
-By default, the OSS system does not have the "ECCO-v4-Python Tutorial" and its associated Jupyter Notebooks and Python codes. If you want to have a local copy of these files then we suggest that you fork and clone the repo to your OSS account.
+By default, the OSS system does not have any notebooks or codes loaded. To get the Hackweek "ecco-2024" Github repository and its associated Jupyter Notebooks and Python codes, we suggest that you fork and clone the repo to your OSS account.
 
 Forking and cloning a repository is beneficial because it:
 - Forking allows you to create your own copy of a project under your GitHub account.
 - You can freely experiment, make changes, and develop features without affecting the original project.
 - After cloning the forked repository, you can sync updates from the original repository and contribute back via pull requests.
 
-### Fork the "ECCO-v4-Python Tutorial"
+### Fork the "ecco-2024" repository
 1. Log into your GitHub account
-2. Navigate to the [ECCO-v4-Python Tutorial GitHub Page](https://github.com/ECCO-GROUP/ECCO-v4-Python-Tutorial/tree/master)
+2. Navigate to the [ecco-2024 Github Page](https://github.com/ECCO-Hackweek/ecco-2024)
 3. Click *Gray* Fork Button: [Detailed Forking Instructions](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
 4. In the "Create a new fork" page, choose yourself as the "Owner"
 5. Click *Green* "Create fork" button
 6. After a few seconds, a new page will appear with your new forked repository
 
-### Clone the "ECCO-v4-Python Tutorial"
+### Clone the "ecco-2024" repository
 1. Click *Green* "\<\> Code" button
 2. In the "Local Tab", select the "SSH" tab
 > [!NOTE]
@@ -61,5 +63,15 @@ Forking and cloning a repository is beneficial because it:
 6. clone the link that you copied: ex) ```git clone git@github.com:...```
    - enter your ssh key passphrase if you used one when creating the key
 
-Now you should have a directory called `/home/jovyan/ECCO-v4-Python-Tutorial`
+Now you should have a directory called `/home/jovyan/ecco-2024`
 
+## Set up Github identity on OSS
+
+To commit any new notebooks or code to the `ecco-2024` repo (or any other you clone to the OSS system) you need to identify yourself using the e-mail associated with your Github account. This can be done with two commands:
+
+```
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+```
+
+This identity is placed in a file `~/.gitconfig` in your user home directory. Now when you commit changes to the repo and push them to your fork (and ultimately the main repo), you are identified as the author of those changes.
