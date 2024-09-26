@@ -1,6 +1,6 @@
 # Setting up your OSS Environment
 
-Ian Fenty and Andrew Delman, 2024-09-25
+Ian Fenty and Andrew Delman, 2024-09-26
 
 This tutorial describes how to 1) link your existing GitHub account to your new OSS environment and 2) fork and clone the "ECCO-v4-Python Tutorial" GitHub repository onto your local OSS disk.
 
@@ -76,3 +76,27 @@ git config --global user.name "Your Name"
 ```
 
 This identity is placed in a file `~/.gitconfig` in your user home directory. Now when you commit changes to the repo and push them to your fork (and ultimately the main repo), you are identified as the author of those changes.
+
+## Add upstream remote (shared repository)
+
+When you cloned the `ecco-2024` repository, you actually cloned the fork of the repo that you own, and that is designated for your code changes. So the local version of the repo is what you have on your machine (i.e., OSS), and the remote of this repo (called *origin*) is your fork on Github. You can check this by running ```git remote -v``` and you will see something like:
+
+```
+origin  git@github.com:{username}/ecco-2024.git (fetch)
+origin  git@github.com:{username}/ecco-2024.git (push)
+```
+
+But you will also want to have direct access to the source `ecco-2024` repository that everyone shares (for example, to pull contributions from others into your local version of the repo). This shared repo on Github is typically called the *upstream* repo, and we can add it as a second remote with this command:
+
+```
+git remote add upstream git@github.com:ECCO-Hackweek/ecco-2024.git
+```
+
+Now if you run ```git remote -v``` again, you can see the URLs of both remotes (origin and upstream):
+
+```
+origin  git@github.com:{username}/ecco-2024.git (fetch)
+origin  git@github.com:{username}/ecco-2024.git (push)
+upstream        git@github.com:ECCO-Hackweek/ecco-2024.git (fetch)
+upstream        git@github.com:ECCO-Hackweek/ecco-2024.git (push)
+```
