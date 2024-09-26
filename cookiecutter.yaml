@@ -1,18 +1,19 @@
 repo_directory: html
 name: ECCO Hackweek
 apply:
-  url: https://forms.gle/kSAw4Meg2ByAgnj99
-  title: Apply Here
+  url: #
+# https://forms.gle/kSAw4Meg2ByAgnj99
+  title: Applications are Closed
 banner:
   description: "Tutorials + peer-to-peer learning + project based teamwork using NASA's ECCO Ocean State Estimate"
-  start_date: 14 October
+  start_date: 14 
   end_date: 18 October
   year: 2024
   location: Pasadena, CA
   links:
   - url: intro.html
 #  - url: '#'
-    title: Event Jupyter Book (Work in Progress)
+    title: Event Jupyter Book
     new_window: false
   #image: https://ecco-hackweek.github.io/ecco-2024/assets/ecco_hw2024_banner.png
   #image: https://github.com/ECCO-Hackweek/ecco-2024/blob/main/assets/ecco_hw2024_banner.png
@@ -24,8 +25,8 @@ about:
   description: Hackweeks are participant-driven events that strive to create
     welcoming spaces for participants to learn new things, build community and
     gain hands-on experience with collaboration and team science. 
-    The 2024 ECCO Hackweek is inspired by and leverages material developed by the 
-    hackweek team at the University of Washington&#39;s eScience Insitute.
+    The 2024 ECCO Hackweek leverages materials developed by the 
+    hackweek team at the University of Washington&#39;s eScience Institute.
   learn_more: https://escience.washington.edu/using-data-science/hackweeks
   links:
     - url: https://oceanhackweek.org/ohw24/

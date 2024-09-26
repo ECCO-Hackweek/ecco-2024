@@ -1,8 +1,8 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: Hackweek Template
-author: eScience Institute, University of Washington
+title: 2024 ECCO Hack Week 
+author: ECCO Consortium
 logo: logo.png
 only_build_toc_files: true
 
@@ -10,14 +10,14 @@ parse:
   # https://jupyterbook.org/content/content-blocks.html?highlight=myst%20substitution#define-substitutions-for-your-whole-book
   # https://jupyterbook.org/content/content-blocks.html#using-substitutions-in-links
   myst_substitutions:
-    hackweek: "uwhackweek"
-    dates: "October ? to ?, 2021"
-    github_org_url: "https://github.com/uwhackweek"
+    hackweek: "ECCO HackWeek"
+    dates: "October 14 to 18, 2024"
+    github_org_url: "https://github.com/ECCO-Hackweek/ecco-2024"
     book_repo: "jupyterbook-template"
-    website_url: "https://book-template.hackweek.io"
-    jupyterhub_url: "https://INSERT_JUPYTERHUB_URL"
-    slack_workspace_url: "https://INSERT_SLACK_URL"
-    contact_email: "INSERT_CONTACT_EMAIL@UW.COM"
+    website_url: "https://ecco-hackweek.github.io/ecco-2024/"
+    jupyterhub_url: "https://sealevel.oss.eis.smce.nasa.gov"
+    slack_workspace_url: "https://2024eccohackweek.slack.com"
+    contact_email: "eccohackweek@gmail.com"
     dataset: "INSERT_DATA_SET_NAME"
     anon_reporting_url: "https://INSERT_FORM_LINK"
     project_spreadsheet_url: "https://INSERT_GOOGLE_SHEET"
@@ -34,9 +34,12 @@ parse:
 # See https://jupyterbook.org/content/execute.html
 execute:
   # NOTE: 'cache' to use jupyter-cache, or 'force' to run all
-  execute_notebooks: 'force'
+#  execute_notebooks: 'force'
+  execute_notebooks: 'cache'
+# IAN NOTE: we're going to exclude re-execution of all notebooks
   exclude_patterns:
     - "**/geospatial-advanced.ipynb"
+    - "**/*.ipynb"
   allow_errors: false
   # Per-cell notebook execution limit (seconds)
   timeout: 300
@@ -53,7 +56,7 @@ launch_buttons:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/uwhackweek/jupyterbook-template # Online location of your book
+  url: https://github.com/ECCO-Hackweek/ecco-2024 # Online location of your book
   path_to_book: book  # Optional path to your book, relative to the repository root
   branch: main  # Which branch of the repository should be used when creating links (optional)
 

@@ -1,0 +1,16 @@
+- title: Gaël Forget
+  avatar: https://github.com/gaelforget.png
+  role: Scientist
+  organizations:
+    - name: MIT
+  bio: Gaël was the principal architect of ECCO4, and has pioneered to use of Julia in Oceanography
+  expertise:
+    - state estimation
+    - MITgcm
+    - Julia
+    - open science
+  social:
+    - icon: github
+      link: https://github.com/gaelforget
+  user_groups:
+    - Hackweek instructor
