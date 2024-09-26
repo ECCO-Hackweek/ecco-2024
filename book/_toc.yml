@@ -7,9 +7,10 @@ parts:
   chapters:
     - file: logistics
     - title: Schedule
-      url: https://uwhackweek.github.io/jupyterbook-template/index.html?jump_to=schedule
+      url: https://ecco-hackweek.github.io/ecco-2024/index.html?jump_to=schedule
     - title: Team
-      url: https://uwhackweek.github.io/jupyterbook-template/index.html?jump_to=team
+      url: https://ecco-hackweek.github.io/ecco-2024/index.html?jump_to=team
+#      url: https://uwhackweek.github.io/jupyterbook-template/index.html?jump_to=team
     - file: CoC
 - caption: Preparation
   chapters:
