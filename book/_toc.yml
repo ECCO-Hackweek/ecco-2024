@@ -18,11 +18,11 @@ parts:
     - file: preliminary/git
 - caption: Tutorials
   chapters:
-    - file:  tutorials/oss_tutorial_index.md
+    - file:  tutorials/oss_tutorial_index
       sections:
         - file: tutorials/example/tutorial-notebook
         - file: tutorials/oss/oss_initial_repo
-    - file:  tutorials/pcluster_tutorial_index.md
+    - file:  tutorials/pcluster_tutorial_index
       sections:
         - file: tutorials/pcluster/pcluster-login
 - caption: Projects
