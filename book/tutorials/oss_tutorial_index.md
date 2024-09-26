@@ -6,5 +6,5 @@ Below you'll find a table keeping track of all tutorials presented at this event
 
 | Tutorial | Topics | Datasets |  Recording Link |
 | -  | - | - |  - |
-| [OSS initial repo setup](./oss/oss_initial_repo.ipynb) | Fork and Clone the ECCO-v4-Python Tutorial repository | n/a |  Not recorded |
+| [OSS initial repo setup](./oss_tut/oss_initial_repo.ipynb) | Fork and Clone the ECCO-v4-Python Tutorial repository | n/a |  Not recorded |
 | [Example Notebook](./example/tutorial-notebook.ipynb) | Jupyter Book formatting, ipyleaflet | n/a |  Not recorded |
