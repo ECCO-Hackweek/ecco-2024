@@ -19,6 +19,7 @@ To link your existing github account to the OSS, you need to make SSH keys on th
    ```ssh-keygen -t ed25519 -C "your.email@example.com"```
    - if you use the default filenames you will get *id_ed25519.pub* (public key) and *id_ed25519* (private key) in `/home/jovyan/.ssh` 
    - you can hit enter when asked for a passphrase for [no pass phrase](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/working-with-ssh-key-passphrases)
+   - make sure that only you can read the private key: ```chmod 400 ~/.ssh/id_ed25519```. Otherwise you may get an error when using the key pair later.
 1. Add the new SSH public key to your GitHub account. [Detailed Instructions](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
    - Log into your github account
    - click on your profile picture (usually in the top right corner of the github page)
