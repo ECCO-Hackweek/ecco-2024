@@ -21,7 +21,7 @@ parts:
     - file:  tutorials/oss_tutorial_index
       sections:
         - file: tutorials/example/tutorial-notebook
-        - file: tutorials/oss/oss_initial_repo
+        - file: tutorials/oss_tut/oss_initial_repo
     - file:  tutorials/pcluster_tutorial_index
       sections:
         - file: tutorials/pcluster/pcluster-login
