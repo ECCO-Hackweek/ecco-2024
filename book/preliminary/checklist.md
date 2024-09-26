@@ -55,15 +55,14 @@ if you are in need for an account!
 (accessing-jupyterhub)=
 ### JupyterHub
 
-We will offer all tutorials based on a JupyterHub environment. Please visit the
+Many tutorials will be provided for a JupyterHub environment. Please visit the
 [Project Pythia Foundation Skills](https://foundations.projectpythia.org/foundations/getting-started-jupyter.html)
 to learn more about the components of project Jupyter.
 
-Specifically for the event, we will be using [CryoCloud](https://book.cryointhecloud.com/intro.html).
-To get started, please see the [onboarding instructions](https://book.cryointhecloud.com/content/Getting_Started.html)
-to gain access.
+Specifically for the event, we will be using [EIS-Sealevel Open Science Studio](https://book.cryointhecloud.com/intro.html).
+We will soon provide onboarding instructions for the OSS.
 
-Optional setup after you are logged in CryoCloud:
+Optional setup after you are logged in EIS-Sealevel Open Science Studio: 
 * Earthdata authentication to automate data downloads:
   [Configure a netrc file](https://wiki.earthdata.nasa.gov/display/EL/How+To+Access+Data+With+cURL+And+Wget)
 * Git authentication:
