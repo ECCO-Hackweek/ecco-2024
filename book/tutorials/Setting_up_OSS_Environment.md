@@ -100,3 +100,5 @@ origin  git@github.com:{username}/ecco-2024.git (push)
 upstream        git@github.com:ECCO-Hackweek/ecco-2024.git (fetch)
 upstream        git@github.com:ECCO-Hackweek/ecco-2024.git (push)
 ```
+
+You can see [this link](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories) for more information about managing remote repos.
