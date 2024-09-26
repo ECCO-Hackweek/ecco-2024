@@ -20,11 +20,23 @@ parts:
   chapters:
     - file:  tutorials/oss_tutorial_index
       sections:
-        - file: tutorials/example/tutorial-notebook
         - file: tutorials/oss_tut/oss_initial_repo
+        - file: tutorials/oss_tut/Working_with_git
+        - file: tutorials/oss_tut/Earthdata_credentials
+        - file: tutorials/example/tutorial-notebook
     - file:  tutorials/pcluster_tutorial_index
       sections:
         - file: tutorials/pcluster/pcluster-login
+    - file:  tutorials/ECCO_gen_info_index
+      sections:
+        - file: tutorials/ECCO_gen_info/ECCO_intro
+        - file: tutorials/ECCO_gen_info/grid_descrip
+    - file:  tutorials/ECCO_data_access_index
+      sections:
+        - file: tutorials/ECCO_data_access/ECCO_data_structure
+        - file: tutorials/ECCO_data_access/ECCO_access_intro
+        - file: tutorials/ECCO_data_access/wget_download_tutorial
+        - file: tutorials/ECCO_data_access/ECCO_subsets_tutorial
 - caption: Projects
   chapters:
     - file: projects/index
