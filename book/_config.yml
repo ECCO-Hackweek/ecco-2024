@@ -34,9 +34,12 @@ parse:
 # See https://jupyterbook.org/content/execute.html
 execute:
   # NOTE: 'cache' to use jupyter-cache, or 'force' to run all
-  execute_notebooks: 'force'
+#  execute_notebooks: 'force'
+  execute_notebooks: 'cache'
+# IAN NOTE: we're going to exclude re-execution of all notebooks
   exclude_patterns:
     - "**/geospatial-advanced.ipynb"
+    - "**/*.ipynb"
   allow_errors: false
   # Per-cell notebook execution limit (seconds)
   timeout: 300

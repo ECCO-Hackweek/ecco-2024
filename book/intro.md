@@ -1,7 +1,7 @@
 # Welcome to {{hackweek}}!
 
 
-📖 On this JupyterBook website you'll find [tutorials](tutorials/index). All tutorials are Jupyter Notebooks, designed to be run interactively, but also rendered on this website for convenience.
+📖 On this JupyterBook website you'll find tutorials. All tutorials are Jupyter Notebooks, designed to be run interactively, but also rendered on this website for convenience.
 
 ```{admonition} Quick links for the event
 :class: seealso

@@ -13,7 +13,7 @@ banner:
   links:
   - url: intro.html
 #  - url: '#'
-    title: Event Jupyter Book (Work in Progress)
+    title: Event Jupyter Book
     new_window: false
   #image: https://ecco-hackweek.github.io/ecco-2024/assets/ecco_hw2024_banner.png
   #image: https://github.com/ECCO-Hackweek/ecco-2024/blob/main/assets/ecco_hw2024_banner.png
