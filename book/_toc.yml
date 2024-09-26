@@ -10,7 +10,6 @@ parts:
       url: https://ecco-hackweek.github.io/ecco-2024/index.html?jump_to=schedule
     - title: Team
       url: https://ecco-hackweek.github.io/ecco-2024/index.html?jump_to=team
-#      url: https://uwhackweek.github.io/jupyterbook-template/index.html?jump_to=team
     - file: CoC
 - caption: Preparation
   chapters:
@@ -19,9 +18,13 @@ parts:
     - file: preliminary/git
 - caption: Tutorials
   chapters:
-    - file: tutorials/index
+    - file:  tutorials/oss_tutorial_index.md
       sections:
         - file: tutorials/example/tutorial-notebook
+        - file: tutorials/oss/oss_initial_repo
+    - file:  tutorials/pcluster_tutorial_index.md
+      sections:
+        - file: tutorials/pcluster/pcluster-login
 - caption: Projects
   chapters:
     - file: projects/index
