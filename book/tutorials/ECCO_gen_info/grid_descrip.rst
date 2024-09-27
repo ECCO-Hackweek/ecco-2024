@@ -22,9 +22,9 @@ The lat-lon-cap (llc) is the decomposition of the spherical Earth into a Cartesi
 
 The Cartesian curvilinear coordinate system is divided into 13 tiles, each consisting of 90x90 grid cells in the horizontal and 50 vertical levels.  Horizontal model grid resolution varies spatially from 22km to 110km, with the highest resolutions at high latitudes and lowest resolution in mid latitudes. Vertical grid spacing increases with depth from 10m to 456.5m.  The bottom of the deepest model grid cell is 6145m below the surface.
 
-The Cartesian (x,y) coordinates of llc tiles do not coorespond to longitude and latitude.  Horizontal velocities are defined relative to the **local orientation** of x and y in the tile.  Velocities in the positive *x* direction are defined as positive *u*.  Velocities in the positive *y* direction are defined as positive *v*.
+The Cartesian (x,y) coordinates of llc tiles do not correspond to longitude and latitude.  Horizontal velocities are defined relative to the **local orientation** of x and y in the tile.  Velocities in the positive *x* direction are defined as positive *u*.  Velocities in the positive *y* direction are defined as positive *v*.
 
-.. figure:: ../img/llc90_0.png
+.. figure:: ../../img/llc90_0.png
     :align: center
     :alt: alternate text
     :figclass: align-center
@@ -56,7 +56,7 @@ Available fields on the 0.5° x 0.5° latitude-longitude grid
 Miscellaneous fields and data
 ==================================================
 
-A few time series that do not have spatial dimensions (e.g. averages over the global ocean), as well as the grid parameter fields, are listed `here <https://raw.githubusercontent.com/ECCO-GROUP/ECCO-v4-Python-Tutorial/master/varlist/v4r4_tseries_grid_varlist.txt>`_.
+A few time series that do not have spatial dimensions (e.g. averages over the global ocean), as well as the grid parameter fields, are listed `here <https://raw.githubusercontent.com/ECCO-GROUP/ECCO-v4-Python-Tutorial/master/varlist/v4r4_tseries_grid_varlist.txt>`__.
 
 See the "Using Python to Download ECCO Datasets" tutorial for information on how to download the output.
 
@@ -71,6 +71,6 @@ All ocean, sea-ice, surface atmosphere, and air-sea flux fields are provided as 
 Custom output
 *************
 
-Because the state estimate fields are the output from a free-running ocean model, users can re-run the model to generate custom output on the native lat-lon-cap model grid.  Instructions for doing so are provided `here <https://www.ecco-group.org/docs/v4r4_reproduction_howto.pdf>`_ .
+Because the state estimate fields are the output from a free-running ocean model, users can re-run the model to generate custom output on the native lat-lon-cap model grid.  Instructions for doing so are provided `here <https://www.ecco-group.org/docs/v4r4_reproduction_howto.pdf>`__ .
 
 

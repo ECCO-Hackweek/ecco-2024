@@ -18,11 +18,11 @@ parts:
     - file: preliminary/git
 - caption: Tutorials
   chapters:
-    - file:  tutorials/oss_tutorial_index
+    - file:  tutorials/oss_setup_index
       sections:
-        - file: tutorials/oss_tut/oss_initial_repo
-        - file: tutorials/oss_tut/Working_with_git
-        - file: tutorials/oss_tut/Earthdata_credentials
+        - file: tutorials/oss_setup/oss_initial_repo
+        - file: tutorials/oss_setup/Working_with_git
+        - file: tutorials/oss_setup/Earthdata_credentials
         - file: tutorials/example/tutorial-notebook
     - file:  tutorials/pcluster_tutorial_index
       sections:
