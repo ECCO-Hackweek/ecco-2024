@@ -29,6 +29,7 @@ parse:
     - colon_fence
     # Extras
     - html_image
+  myst_heading_anchors: 2
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
