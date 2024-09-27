@@ -12,12 +12,11 @@ banner:
   location: Pasadena, CA
   links:
   - url: intro.html
-#  - url: '#'
     title: Event Jupyter Book
     new_window: false
-  #image: https://ecco-hackweek.github.io/ecco-2024/assets/ecco_hw2024_banner.png
-  #image: https://github.com/ECCO-Hackweek/ecco-2024/blob/main/assets/ecco_hw2024_banner.png
-  #image: https://github.com/ECCO-Hackweek/ecco-2024/blob/main/assets/banner.png
+  - url: logistics.html
+    title: Event Logistics 
+    new_window: false
   image: https://www.nasa.gov/wp-content/uploads/2024/08/iss071e522460.jpg
 # The opening session of the event with UTC offset
 event_countdown: "2024-10-14T08:30:00-07:00"

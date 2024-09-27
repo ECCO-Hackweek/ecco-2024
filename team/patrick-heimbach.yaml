@@ -1,0 +1,17 @@
+- title: Patrick Heimbach 
+  avatar: https://s9i7q5a6.rocketcdn.me/wp-content/uploads/patrick-heimbach-photo.jpg
+  role: Professor
+  organizations:
+    - name: University of Texas at Austin Department of Earth and Planetary Sciences (EPS) and Jackson School of Geosciences (JSG) and the Institute for Geophysics (UTIG).
+  bio: Patrick's main research interest is understanding the general circulation of the ocean and its role in the global climate system. 
+  expertise:
+    - automatic differntiation
+    - coupled ocean sea ice-ocean dynamics 
+    - ocean and cryosphere state estimation 
+    - MITgcm
+    - Python
+  social:
+    - icon: twitter 
+      link: PatrickHeimbach 
+  user_groups:
+    - Organizer

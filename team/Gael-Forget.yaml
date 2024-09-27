@@ -13,4 +13,5 @@
     - icon: github
       link: https://github.com/gaelforget
   user_groups:
-    - Hackweek instructor
+    - Organizer
+    - Instructor
