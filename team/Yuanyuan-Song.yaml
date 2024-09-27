@@ -1,0 +1,16 @@
+- title: Yuanyuan Song
+  avatar: https://github.com/YuanyuanSong99.png
+  role: Postdoc
+  organizations:
+    - name: MIT
+  bio: Yuanyuan is a postdoc in MIT, using ECCO and Julia in Oceanography
+  expertise:
+    - state estimation
+    - MITgcm
+    - Julia
+    - open science
+  social:
+    - icon: github
+      link: https://github.com/YuanyuanSong99
+  user_groups:
+    - Hackweek instructor
