@@ -29,7 +29,6 @@ parse:
     - colon_fence
     # Extras
     - html_image
-  myst_heading_anchors: 2
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
@@ -72,6 +71,7 @@ sphinx:
         .py:
             - jupytext.reads
             - fmt: py:percent
+    myst_heading_anchors: 2
 
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
