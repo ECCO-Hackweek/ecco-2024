@@ -119,6 +119,13 @@ fi
 # initiate SPACK profile 
 source /shared/spack/share/spack/setup-env.sh
 
+# load compiler, MPI, and netCDF modules 
+module load intel-oneapi-compilers-2021.2.0-gcc-11.1.0-adt4bgf
+module load intel-oneapi-mpi-2021.2.0-gcc-11.1.0-ibxno3u
+module load netcdf-c-4.8.1-gcc-11.1.0-6so76nc
+module load netcdf-fortran-4.5.3-gcc-11.1.0-d35hzyr
+module load hdf5-1.10.7-gcc-9.4.0-vif4ht3
+
 # 2024-09-11 The following changes needed for the EMU tool.
 # load module for singularity
 module load singularity-3.8.3-gcc-11.1.0-wqau5pb 
