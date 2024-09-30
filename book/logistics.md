@@ -1,10 +1,20 @@
 # Event Logistics
 
-## Wireless
+## Caltech Wireless Network
 
-* WiFi: TBD 
-* UW NetID: TBD
-* Password: TBD
+1. select 'Caltech Visitor' network
+2. direct your browser to any web page
+3. redirect to splash screen and enter credentials below
+
+* WiFi: Caltech Visitor
+* Username: ECCO
+* Password: Hackweek2024
+
+Notes: 
+1. you may also join Caltech wifi via eduroam if provided by your institution
+2. you may need to login using Google chrome to avoid "OCSP"
+3. you may need to disable browser extensions that prevent the authorization screen from appearing
+4. network will be active Oct 14-18
 
 ## Location
 
