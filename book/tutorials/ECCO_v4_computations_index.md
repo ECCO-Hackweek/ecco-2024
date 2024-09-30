@@ -1,6 +1,8 @@
 # ECCO v4 computations
 
-These tutorials are taken directly from the [ECCO version 4 Python Tutorial website](https://ecco-v4-python-tutorial.readthedocs.io/). They are just a sampling, there are many more tutorials available for viewing on the [website](https://ecco-v4-python-tutorial.readthedocs.io/) which can be accessed by cloning the [Github repo](https://github.com/ECCO-GROUP/ECCO-v4-Python-Tutorial).
+The [ECCO version 4 Python Tutorial website](https://ecco-v4-python-tutorial.readthedocs.io/) has a wide range of tutorials to help users get started with accessing and using ECCOv4 output. These tutorials cover subjects ranging from loading data files using Python's *xarray* package, to more advanced computations like the steric height, meridional heat transport, and budgets.
+
+A subset of these tutorials have been copied over to the `ecco-2024` Jupyter book and can be accessed below, to give you a sense of their range and structure. The tutorials hosted here already have settings enabled for cloud access, and will use the `efs_ecco` mounted drive for any downloads.
 
 | Tutorial | Topics |
 | **Tutorials hosted here**  | - |
@@ -14,6 +16,12 @@ These tutorials are taken directly from the [ECCO version 4 Python Tutorial webs
 | [Compute meridional heat transport](./ECCO_v4_computations/ECCO_v4_Example_MHT.ipynb) | Meridional heat transport |
 | [ECCOv4 Global Volume Budget Closure](./ECCO_v4_computations/ECCO_v4_Volume_budget_closure.ipynb) | Volume budget (minus global mean steric, IB, sea-ice loading) |
 
+
+
+The full set of tutorials are available for viewing on the [website](https://ecco-v4-python-tutorial.readthedocs.io/) and using the links under **All ECCOv4 Python tutorials** below. They can be run by cloning the tutorial [Github repo](https://github.com/ECCO-GROUP/ECCO-v4-Python-Tutorial). Note that in order to run these successfully on the OSS cloud system, you will need to take two steps:
+
+- Do a text search for `incloud_access` and set this variable to `incloud_access = True`.
+- Set the download directory (called `ECCO_dir` or sometimes `download_root_dir` in the notebooks) to `ECCO_dir = join(user_home_dir,'efs_ecco','ECCO_V4r4_PODAAC')`.
 
 **All ECCOv4 Python tutorials**
 
