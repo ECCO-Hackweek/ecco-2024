@@ -20,11 +20,19 @@ __Upon completion you__:
 </div>
 <div>
   <input type="checkbox" name="a4">
-  <label for="a4">Can login to the JupyterHub</label>
+  <label for="a4">Can log in to the JupyterHub</label>
 </div>
 <div>
   <input type="checkbox" name="a5">
   <label for="a5">Setup the `git` command after logging into the JupyterHub</label>
+</div>
+<div>
+  <input type="checkbox" name="a6">
+  <label for="a6">Can log in to the P-Cluster</label>
+</div>
+<div>
+  <input type="checkbox" name="a7">
+  <label for="a7">Update the .bashrc file in your home directory on the P-Cluster</label>
 </div>
 ```
 
@@ -70,3 +78,6 @@ Optional setup after you are logged in EIS-Sealevel Open Science Studio:
   All content of the hackweek will be shared via GitHub and interacting with the
   website will be done via the `git` command. See our {ref}`setting-up-git`
   to configure your access.
+
+### P-Cluster
+[AWS ParallelCluster](https://docs.aws.amazon.com/parallelcluster/latest/ug/what-is-aws-parallelcluster.html) (referred to as P-Cluster) is an open-source cluster management tool developed by Amazon Web Services (AWS). P-Cluster provides users with an HPC-like environment to conduct parallel computing. For the ECCO Hackathon, we have a P-Cluster ready for users to explore MITgcm, reproduce ECCO runs, and engage in many other activities. We have created an introductory [P-Cluster tutorial](referred to as P-Cluster). Please go through the tutorial and ensure that: 1) you can log in to the P-Cluster, and 2) you have updated your .basrhc in your home directory. 
