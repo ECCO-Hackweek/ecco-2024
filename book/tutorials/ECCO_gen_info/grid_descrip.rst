@@ -1,6 +1,6 @@
-############################################################
-ECCO v4 state estimate ocean, sea-ice, and atmosphere fields
-############################################################
+###################################
+Native grid and interpolated fields
+###################################
 
 The complete state estimate consists of a set of ocean, sea-ice, air-sea flux, and atmosphere state variables that are the output from a free-running ocean and sea-ice general circulation model. 
 
@@ -24,7 +24,7 @@ The Cartesian curvilinear coordinate system is divided into 13 tiles, each consi
 
 The Cartesian (x,y) coordinates of llc tiles do not correspond to longitude and latitude.  Horizontal velocities are defined relative to the **local orientation** of x and y in the tile.  Velocities in the positive *x* direction are defined as positive *u*.  Velocities in the positive *y* direction are defined as positive *v*.
 
-.. figure:: ../../img/llc90_0.png
+.. figure:: ../img/llc90_0.png
     :align: center
     :alt: alternate text
     :figclass: align-center
