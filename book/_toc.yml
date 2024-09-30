@@ -39,6 +39,17 @@ parts:
         - file: tutorials/ECCO_data_access/ECCO_access_intro
         - file: tutorials/ECCO_data_access/wget_download_tutorial
         - file: tutorials/ECCO_data_access/ECCO_subsets_tutorial
+    - file:  tutorials/ECCO_v4_computations_index
+      sections:
+        - file: tutorials/ECCO_v4_computations/ECCO_v4_data_structure_basics
+        - file: tutorials/ECCO_v4_computations/ECCO_v4_Coordinates_and_Dimensions_of_ECCOv4_NetCDF_files
+        - file: tutorials/ECCO_v4_computations/ECCO_v4_Accessing_and_Subsetting_Variables
+        - file: tutorials/ECCO_v4_computations/ECCO_v4_Memory_management
+        - file: tutorials/ECCO_v4_computations/ECCO_v4_Example_calculations_with_scalar_quantities
+        - file: tutorials/ECCO_v4_computations/ECCO_v4_Gradient_calc_on_native_grid
+        - file: tutorials/ECCO_v4_computations/Steric_height
+        - file: tutorials/ECCO_v4_computations/ECCO_v4_Example_MHT
+        - file: tutorials/ECCO_v4_computations/ECCO_v4_Volume_budget_closure
 - caption: Projects
   chapters:
     - file: projects/index
