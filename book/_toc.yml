@@ -29,6 +29,7 @@ parts:
         - file: tutorials/pcluster/pcluster-login
         - file: tutorials/pcluster/Run_MITgcm_on_P-Cluster
         - file: tutorials/pcluster/reproducing_v4r4
+        - file: tutorials/pcluster/emu
     - file:  tutorials/ECCO_gen_info_index
       sections:
         - file: tutorials/ECCO_gen_info/ECCO_intro
