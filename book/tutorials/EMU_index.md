@@ -6,6 +6,6 @@ Below you'll find a table keeping track of all tutorials presented at this event
 
 | Tutorial | Topics | Datasets |  Recording Link |
 | -  | - | - |  - |
-| [MITgcm Verification Experiment](./pcluster/Run_MITgcm_on_P-Cluster.ipynb) | How to run a quick MITgcm verification experiment | n/a |  Not recorded |
-| [Reproducing ECCO Version 4 Release 4](./pcluster/reproducing_v4r4.ipynb) | How to reproduce ECCO Version 4 Release 4 | n/a |  Not recorded |
-| [Example Notebook](./example/tutorial-notebook.ipynb) | Jupyter Book formatting, ipyleaflet | n/a |  Not recorded |
+| [Introduction](./EMU/EMU_Intro.ipynb) | ECCO Modeling Utilities (EMU) introduction | n/a |  Not recorded |
+| [Installation](./EMU/EMU_Installation.ipynb) | How to install EMU | n/a |  Not recorded |
+| [Running and Analyzing Results with EMU Tools](./EMU/EMU_run_and_analyze.ipynb) | How to run and analyze results with EMU | n/a |  Not recorded |

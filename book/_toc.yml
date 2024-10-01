@@ -25,15 +25,19 @@ parts:
         - file: tutorials/oss_setup/Working_with_git
         - file: tutorials/oss_setup/Earthdata_credentials
         - file: tutorials/example/tutorial-notebook
-    - file:  tutorials/pcluster_tutorial_index
-      sections:
-        - file: tutorials/pcluster/Run_MITgcm_on_P-Cluster
-        - file: tutorials/pcluster/reproducing_v4r4
-        - file: tutorials/pcluster/emu
     - file:  tutorials/ECCO_gen_info_index
       sections:
         - file: tutorials/ECCO_gen_info/ECCO_intro
         - file: tutorials/ECCO_gen_info/grid_descrip
+    - file:  tutorials/pcluster_tutorial_index
+      sections:
+        - file: tutorials/pcluster/Run_MITgcm_on_P-Cluster
+        - file: tutorials/pcluster/reproducing_v4r4
+    - file:  tutorials/EMU_index
+      sections:
+        - file: tutorials/EMU/EMU_Intro
+        - file: tutorials/EMU/EMU_Installation
+        - file: tutorials/EMU/EMU_run_and_analyze
     - file:  tutorials/ECCO_data_access_index
       sections:
         - file: tutorials/ECCO_data_access/ECCO_data_structure
