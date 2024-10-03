@@ -37,7 +37,10 @@ parts:
       sections:
         - file: tutorials/EMU/EMU_Intro
         - file: tutorials/EMU/EMU_Installation
-        - file: tutorials/EMU/EMU_run_and_analyze
+        - file: tutorials/EMU/samp
+        - file: tutorials/EMU/fgrd
+        - file: tutorials/EMU/adj
+        - file: tutorials/EMU/conv
     - file:  tutorials/ECCO_data_access_index
       sections:
         - file: tutorials/ECCO_data_access/ECCO_data_structure

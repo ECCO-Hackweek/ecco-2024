@@ -8,4 +8,7 @@ Below you'll find a table keeping track of all tutorials presented at this event
 | -  | - | - |  - |
 | [Introduction](./EMU/EMU_Intro.ipynb) | ECCO Modeling Utilities (EMU) introduction | n/a |  Not recorded |
 | [Installation](./EMU/EMU_Installation.ipynb) | How to install EMU | n/a |  Not recorded |
-| [Running and Analyzing Results with EMU Tools](./EMU/EMU_run_and_analyze.ipynb) | How to run and analyze results with EMU | n/a |  Not recorded |
+| [Sampling Tool](./EMU/samp.ipynb) | Sampling (samp) Tool | n/a |  Not recorded |
+| [Forward Gradient Tool](./EMU/fgrd.ipynb) | Forward Gradient (fgrd) Tool | n/a |  Not recorded |
+| [Adjoint Tool](./EMU/adj.ipynb) | Adjoint (adj) Tool | n/a |  Not recorded |
+| [Convolution Tool](./EMU/conv.ipynb) | Convolution (conv) Tool | n/a |  Not recorded |
