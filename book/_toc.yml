@@ -42,6 +42,7 @@ parts:
         - file: tutorials/EMU/adj
         - file: tutorials/EMU/conv
         - file: tutorials/EMU/trc
+        - file: tutorials/EMU/budg
     - file:  tutorials/ECCO_data_access_index
       sections:
         - file: tutorials/ECCO_data_access/ECCO_data_structure
