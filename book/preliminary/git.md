@@ -1,4 +1,4 @@
-# Setting up `git`
+# Setting up `git` 
 
 ## What is Git?
 
