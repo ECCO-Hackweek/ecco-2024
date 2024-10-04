@@ -15,34 +15,16 @@ parts:
   chapters:
     - file: preliminary/index
     - file: preliminary/checklist
-    - file: preliminary/git
+    - file: preliminary/oss_initial_repo
     - file: preliminary/pcluster-login
+    - file: preliminary/git
+    - file: preliminary/Earthdata_credentials
 - caption: Tutorials
   chapters:
-    - file:  tutorials/oss_setup_index
-      sections:
-        - file: tutorials/oss_setup/oss_initial_repo
-        - file: tutorials/oss_setup/Working_with_git
-        - file: tutorials/oss_setup/Earthdata_credentials
-        - file: tutorials/example/tutorial-notebook
     - file:  tutorials/ECCO_gen_info_index
       sections:
         - file: tutorials/ECCO_gen_info/ECCO_intro
         - file: tutorials/ECCO_gen_info/grid_descrip
-    - file:  tutorials/pcluster_tutorial_index
-      sections:
-        - file: tutorials/pcluster/Run_MITgcm_on_P-Cluster
-        - file: tutorials/pcluster/reproducing_v4r4
-    - file:  tutorials/EMU_index
-      sections:
-        - file: tutorials/EMU/EMU_Intro
-        - file: tutorials/EMU/EMU_Installation
-        - file: tutorials/EMU/samp
-        - file: tutorials/EMU/fgrd
-        - file: tutorials/EMU/adj
-        - file: tutorials/EMU/conv
-        - file: tutorials/EMU/trc
-        - file: tutorials/EMU/budg
     - file:  tutorials/ECCO_data_access_index
       sections:
         - file: tutorials/ECCO_data_access/ECCO_data_structure
@@ -60,6 +42,23 @@ parts:
         - file: tutorials/ECCO_v4_computations/Steric_height
         - file: tutorials/ECCO_v4_computations/ECCO_v4_Example_MHT
         - file: tutorials/ECCO_v4_computations/ECCO_v4_Volume_budget_closure
+    - file:  tutorials/pcluster_tutorial_index
+      sections:
+        - file: tutorials/pcluster/Run_MITgcm_on_P-Cluster
+        - file: tutorials/pcluster/reproducing_v4r4
+    - file:  tutorials/EMU_index
+      sections:
+        - file: tutorials/EMU/EMU_Intro
+        - file: tutorials/EMU/EMU_Installation
+        - file: tutorials/EMU/samp
+        - file: tutorials/EMU/fgrd
+        - file: tutorials/EMU/adj
+        - file: tutorials/EMU/conv
+        - file: tutorials/EMU/trc
+        - file: tutorials/EMU/budg
+    - file:  tutorials/git_use_index
+      sections:
+        - file: tutorials/git_use/Working_with_git
 - caption: Projects
   chapters:
     - file: projects/index
