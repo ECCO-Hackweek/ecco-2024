@@ -13,3 +13,4 @@ Below you'll find a table keeping track of all tutorials presented at this event
 | [Adjoint Tool](./EMU/adj.ipynb) | Adjoint (adj) Tool | n/a |  Not recorded |
 | [Convolution Tool](./EMU/conv.ipynb) | Convolution (conv) Tool | n/a |  Not recorded |
 | [Tracer Tool](./EMU/trc.ipynb) | Tracer (trc) Tool | n/a |  Not recorded |
+| [Budget Tool](./EMU/budg.ipynb) | Budget (budg) Tool | n/a |  Not recorded |
