@@ -14,3 +14,4 @@ Below you'll find a table keeping track of all tutorials presented at this event
 | [Convolution Tool](./EMU/conv.ipynb) | Convolution (conv) Tool | n/a |  Not recorded |
 | [Tracer Tool](./EMU/trc.ipynb) | Tracer (trc) Tool | n/a |  Not recorded |
 | [Budget Tool](./EMU/budg.ipynb) | Budget (budg) Tool | n/a |  Not recorded |
+| [Attribution Tool](./EMU/atrb.ipynb) | Attribution (atrb) Tool | n/a |  Not recorded |
