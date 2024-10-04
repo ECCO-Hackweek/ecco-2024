@@ -12,3 +12,4 @@ Below you'll find a table keeping track of all tutorials presented at this event
 | [Forward Gradient Tool](./EMU/fgrd.ipynb) | Forward Gradient (fgrd) Tool | n/a |  Not recorded |
 | [Adjoint Tool](./EMU/adj.ipynb) | Adjoint (adj) Tool | n/a |  Not recorded |
 | [Convolution Tool](./EMU/conv.ipynb) | Convolution (conv) Tool | n/a |  Not recorded |
+| [Tracer Tool](./EMU/trc.ipynb) | Tracer (trc) Tool | n/a |  Not recorded |
