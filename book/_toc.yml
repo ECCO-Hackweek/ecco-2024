@@ -56,6 +56,7 @@ parts:
         - file: tutorials/EMU/conv
         - file: tutorials/EMU/trc
         - file: tutorials/EMU/budg
+        - file: tutorials/EMU/msim
         - file: tutorials/EMU/atrb
     - file:  tutorials/git_use_index
       sections:
