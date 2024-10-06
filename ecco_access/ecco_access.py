@@ -272,9 +272,9 @@ def ecco_podaac_access(query,version='v4r4',grid=None,time_res='all',\
 ###================================================================================================================
 
 
-def ecco_podaac_access_to_xrdataset(query,version='v4r4',grid=None,time_res='all',\
-                                    StartDate=None,EndDate=None,snapshot_interval=None,\
-                                    mode='download_ifspace',download_root_dir=None,**kwargs):
+def ecco_podaac_to_xrdataset(query,version='v4r4',grid=None,time_res='all',\
+                             StartDate=None,EndDate=None,snapshot_interval=None,\
+                             mode='download_ifspace',download_root_dir=None,**kwargs):
     """
     
     This function queries and accesses ECCO datasets from PO.DAAC. The core query and download functions are adapted from Jupyter notebooks 
@@ -396,7 +396,7 @@ def ecco_podaac_access_to_xrdataset(query,version='v4r4',grid=None,time_res='all
 
     # raise error if mode is ls/query only
     if mode in ['ls','query','s3_ls','s3_query']:
-        raise ValueError("ecco_podaac_access_to_xrdataset does not work with 'ls'/'query' modes. \n"\
+        raise ValueError("ecco_podaac_to_xrdataset does not work with 'ls'/'query' modes. \n"\
                          +"Please use ecco_podaac_access with these modes.")
         
         return -1
