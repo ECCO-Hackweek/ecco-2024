@@ -65,6 +65,7 @@ parts:
     - file: tutorials/AD_tuts_index
       sections:
         - file: tutorials/AD_tuts/tutorial_self_ad.ipynb
+        - file: tutorials/AD_tuts/tutorial_mitgcm_ad_v2.ipynb
 - caption: Projects
   chapters:
     - file: projects/index
