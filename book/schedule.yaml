@@ -29,9 +29,14 @@ tabs:
   - title: LUNCH
     description: null
     time: 12:00 - 13:00
+  - title: 'Julia'
+    description: Introduction to Julia, poacakges, and examples for ECCO'
+    time: 13:00 - 14:00
+    leads:
+    - Gael Forget 
   - title: OPEN PROJECT WORK
     description: null
-    time: 13:00 - 17:00
+    time: 14:00 - 17:00
 - title: Day 2
   date: Tuesday 15 October 
   contents:
@@ -76,11 +81,6 @@ tabs:
   - title: BREAK
     description: null
     time: 10:00 - 10:30
-  - title: 'Julia'
-    description: Introduction of Julia libraries for ECCO' 
-    time: 10:30 - 11:15
-    leads:
-    - Gael Forget 
   - title: Group STAND-UP & OPEN PROJECT WORK
     description: null
     time: 11:15 - 12:00
