@@ -25,6 +25,10 @@ parts:
       sections:
         - file: tutorials/ECCO_gen_info/ECCO_intro
         - file: tutorials/ECCO_gen_info/grid_descrip
+    - file:  tutorials/Julia_setup_index
+      sections:
+        - file: tutorials/Julia_setup/guidelines
+        - file: tutorials/Julia_setup/MITgcm_test_run
     - file:  tutorials/ECCO_data_access_index
       sections:
         - file: tutorials/ECCO_data_access/ECCO_data_structure
