@@ -12,6 +12,11 @@ _Work In Progress_
 | [Tracking particles in the Ocean](./Julia_setup/particle_tracking.ipynb) | Argo data.jl, drifters, etc |
 | [Geography and the ECCO grids](./Julia_setup/MITgcm_ECCO_grid.ipynb) | Maps, Sections, Projections, Polygons|
 | [Explore standard ECCO diagnostics](./Julia_setup/ECCO_diagnostics.ipynb) | Transports, Time Series, Maps|
+| [Visualize and Compute ECCO transports](./Julia_setup/Transports.ipynb) | Transports, Meridional, Transects |
 | [Explore the global observing system](./Julia_setup/GOOS.ipynb) | Argo, drifters, etc |
-| [Explore Argo data and compare to ECCO](./Julia_setup/ArgoData.ipynb) | Argo data.jl, sampling ECCO, cost funtions |
+| [Explore Argo data and compare to ECCO](./Julia_setup/ArgoData.ipynb) | Argo data, sampling ECCO, cost funtions |
+
+| [Explore SST data and compare to ECCO](./Julia_setup/SST.ipynb) | Argo data, sampling ECCO, cost funtions |
+| [Explore SST data and compare to ECCO](./Julia_setup/SST.ipynb) | Argo data, sampling ECCO, cost funtions |
+| [Explore NSLCT data and compare to ECCO](./Julia_setup/NSLCT.ipynb) | Sea Level, observations, projections |
 
