@@ -29,6 +29,8 @@ parts:
       sections:
         - file: tutorials/Julia_setup/guidelines
         - file: tutorials/Julia_setup/MITgcm_test_run
+        - file: tutorials/Julia_setup/ECCO_diagnostics
+        - file: tutorials/Julia_setup/ArgoData
     - file:  tutorials/ECCO_data_access_index
       sections:
         - file: tutorials/ECCO_data_access/ECCO_data_structure
