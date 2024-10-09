@@ -2,7 +2,7 @@
 
 Here, we run MITgcm, analyze ECCO solutions, and compare with Argo -- all comfortably from within julia.
 
-_Work in progress_
+_Work In Progress_
 
 | Tutorial | Topics |
 | -  | - |
