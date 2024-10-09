@@ -15,8 +15,7 @@ _Work In Progress_
 | [Visualize and Compute ECCO transports](./Julia_setup/Transports.ipynb) | Transports, Meridional, Transects |
 | [Explore the global observing system](./Julia_setup/GOOS.ipynb) | Argo, drifters, etc |
 | [Explore Argo data and compare to ECCO](./Julia_setup/ArgoData.ipynb) | Argo data, sampling ECCO, cost funtions |
-
 | [Explore SST data and compare to ECCO](./Julia_setup/SST.ipynb) | Argo data, sampling ECCO, cost funtions |
-| [Explore SST data and compare to ECCO](./Julia_setup/SST.ipynb) | Argo data, sampling ECCO, cost funtions |
+| [Explore Sea Level Anomalies and ECCO](./Julia_setup/SeaLevelAnomalies.ipynb) | Argo data, sampling ECCO, cost funtions |
 | [Explore NSLCT data and compare to ECCO](./Julia_setup/NSLCT.ipynb) | Sea Level, observations, projections |
 
