@@ -18,6 +18,7 @@ on:
 
     branches:
       - main
+      - gf_docs_edits
 
 jobs:
   build-and-deploy:
