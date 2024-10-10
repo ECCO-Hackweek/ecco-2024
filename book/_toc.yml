@@ -22,10 +22,10 @@ parts:
     - file:  tutorials/Julia_setup_index
       sections:
         - file: tutorials/Julia_setup/guidelines
+        - file: tutorials/Julia_setup/MITgcm_ECCO_grid
         - file: tutorials/Julia_setup/MITgcm_test_run
         - file: tutorials/Julia_setup/MITgcm_run_ECCO4
         - file: tutorials/Julia_setup/particle_tracking
-        - file: tutorials/Julia_setup/MITgcm_ECCO_grid
         - file: tutorials/Julia_setup/ECCO_diagnostics
         - file: tutorials/Julia_setup/Transports
         - file: tutorials/Julia_setup/GOOS
