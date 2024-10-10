@@ -15,9 +15,9 @@ parts:
   chapters:
     - file: preliminary/index
     - file: preliminary/checklist
+    - file: preliminary/git_access
     - file: preliminary/oss_initial_repo
     - file: preliminary/pcluster-login
-    - file: preliminary/git
     - file: preliminary/Earthdata_credentials
     - file:  tutorials/Julia_setup_index
       sections:
