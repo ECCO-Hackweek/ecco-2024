@@ -30,7 +30,7 @@ tabs:
     description: null
     time: 12:00 - 13:00
   - title: 'Julia'
-    description: Introduction to Julia, poacakges, and examples for ECCO'
+    description: Introduction to Julia, packages, and examples for ECCO
     time: 13:00 - 14:00
     leads:
     - Gael Forget 
