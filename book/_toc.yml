@@ -43,6 +43,7 @@ parts:
       sections:
         - file: tutorials/ECCO_data_access/ECCO_data_structure
         - file: tutorials/ECCO_data_access/ECCO_access_intro
+        - file: tutorials/ECCO_data_access/ECCO_access_modes
         - file: tutorials/ECCO_data_access/wget_download_tutorial
         - file: tutorials/ECCO_data_access/ECCO_subsets_tutorial
     - file:  tutorials/ECCO_v4_computations_index
