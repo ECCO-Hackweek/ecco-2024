@@ -45,7 +45,7 @@ parts:
         - file: tutorials/ECCO_v4_computations/Steric_height
         - file: tutorials/ECCO_v4_computations/ECCO_v4_Example_MHT
         - file: tutorials/ECCO_v4_computations/ECCO_v4_Volume_budget_closure
-    - file: tutorials/Julia_ECCO_and_more
+    - file: tutorials/Julia_ECCO_and_more_index
       sections:
         - file: tutorials/Julia_ECCO_and_more/MITgcm_ECCO_grid
         - file: tutorials/Julia_ECCO_and_more/MITgcm_test_run
