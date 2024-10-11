@@ -1,3 +1,6 @@
 .bg-jb-one {
     background-color: #4b2e83;
 }
+ul.nav.section-nav.flex-column {
+  display: block;
+}
