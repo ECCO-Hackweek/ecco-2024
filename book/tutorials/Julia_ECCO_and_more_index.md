@@ -6,7 +6,7 @@ The included notebooks can be run on OSS, p-cluster, your own laptop, or using [
 
 | Tutorial | Topics |
 | -  | - |
-| [Guidelines](./Julia_ECCO_and_more/guidelines.ipynb) | Install, Pkg, Julia basics |
+| [Guidelines](../preliminary/Julia_setup.ipynb) | Install, Pkg, Julia basics |
 | [Visualise the ECCO model grid](./Julia_ECCO_and_more/MITgcm_ECCO_grid.ipynb) | Maps, Sections, Projections, Polygons|
 | [Use the MITgcm.jl interface](./Julia_ECCO_and_more/MITgcm_test_run.ipynb) | Install, Pkg, Julia basics |
 | [Run ECCO from Julia](./Julia_ECCO_and_more/MITgcm_run_ECCO4.ipynb) | HPC, diagnostics, perturbations |
