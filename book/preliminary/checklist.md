@@ -65,7 +65,7 @@ Many tutorials will be provided for a JupyterHub environment. Please visit the
 [Project Pythia Foundation Skills](https://foundations.projectpythia.org/foundations/getting-started-jupyter.html)
 to learn more about the components of project Jupyter.
 
-Specifically for the event, we will be using EIS-Sealevel [Open Science Studio (OSS)](https://smce.nasa.gov/oss/). Please follow [these steps](https://ecco-hackweek.github.io/ecco-2024/preliminary/oss_intro.ipynb) to log in to your OSS system JupyterHub.
+Specifically for the event, we will be using EIS-Sealevel [Open Science Studio (OSS)](https://smce.nasa.gov/oss/). Please follow [these steps](https://ecco-hackweek.github.io/ecco-2024/preliminary/oss_intro.html) to log in to your OSS system JupyterHub.
 
 
 ### EarthData account and OSS setup
