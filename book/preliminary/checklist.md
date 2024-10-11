@@ -68,6 +68,11 @@ to learn more about the components of project Jupyter.
 Specifically for the event, we will be using EIS-Sealevel [Open Science Studio (OSS)](https://smce.nasa.gov/oss/). Please follow [these steps](https://ecco-hackweek.github.io/ecco-2024/preliminary/oss_intro.html) to log in to your OSS system JupyterHub.
 
 
+### GitHub authentication on OSS
+
+To interact between online GitHub repositories and your OSS, you will need to set up an access token or key with GitHub. Follow [these steps](https://ecco-hackweek.github.io/ecco-2024/preliminary/git_access.html) to set this up and test it.
+
+
 ### EarthData account and OSS setup
 
 We'll have you download some data from NASA Earthdata for your tutorials and projects. You can register for an account [here](https://urs.earthdata.nasa.gov). Then follow [these steps](https://ecco-hackweek.github.io/ecco-2024/preliminary/Earthdata_credentials.html) to store your credentials on the OSS system.
