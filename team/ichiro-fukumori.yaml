@@ -1,0 +1,17 @@
+- title: Ichiro Fukumori
+  avatar: https://science.jpl.nasa.gov/media/images/IchiroFukumori.max-255x355.jpg
+  role: Scientist
+  organizations:
+    - name: Jet Propulsion Laboratory
+  bio:  Studying mechanisms of ocean circulation with particular interest in sea level change. Principal architect of EMU. 
+  expertise:
+    - Estimation
+    - Modeling
+    - Sea level change
+    - Ocean climate variability
+  social:
+    - icon: github
+      link: https://github.com/ecco-group
+  user_groups:
+    - Organizer
+    - Instructor

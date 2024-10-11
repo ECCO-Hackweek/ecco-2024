@@ -1,0 +1,16 @@
+- title: Shreyas Gaikwad 
+  avatar: https://shreyas911.github.io/assets/images/Shreyas_image.jpg
+  role: Ph.D. candidate
+  organizations:
+    - name: University of Texas at Austin
+  bio: Shreyas mainly works on estimating paleoclimate using data assimilation for the Greenland ice sheet. He also has a background in developing and using open-source adjoint models for ice sheet and ocean models.
+  expertise:
+    - Algorithmic Differentiation
+    - Open science
+    - Data assimilation
+    - Ice sheet modeling
+  social:
+    - icon: github
+      link: https://github.com/Shreyas911
+  user_groups:
+    - Instructor 

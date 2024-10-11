@@ -12,7 +12,7 @@ __Upon completion you__:
 </div>
 <div>
   <input type="checkbox" name="a2">
-  <label for="a2">Created a EarthData Login</label>
+  <label for="a2">Created an EarthData Login</label>
 </div>
 <div>
   <input type="checkbox" name="a3">
