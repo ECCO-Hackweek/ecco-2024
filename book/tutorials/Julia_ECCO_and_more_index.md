@@ -2,7 +2,9 @@
 
 Here, we run MITgcm, analyze ECCO solutions, and compare with Argo -- all comfortably from within julia.
 
-The included notebooks can be run on OSS, p-cluster, your own laptop, or using [ECCO-Docker](https://github.com/gaelforget/ECCO-Docker).
+The included notebooks can be run on OSS, p-cluster, your own laptop, or using the [ECCO-Docker](https://github.com/gaelforget/ECCO-Docker) configuration. 
+
+## Tutorial Lineup
 
 | Tutorial | Topics |
 | -  | - |
@@ -19,3 +21,16 @@ The included notebooks can be run on OSS, p-cluster, your own laptop, or using [
 | [Explore Sea Level Anomalies and ECCO](./Julia_ECCO_and_more/SeaLevelAnomalies.ipynb) | Argo data, sampling ECCO, cost funtions |
 | [Explore NSLCT data and compare to ECCO](./Julia_ECCO_and_more/NSLCT.ipynb) | Sea Level, observations, projections |
 
+## p-cluster
+
+On the p-cluster you can use singularity instead of [ECCO-Docker](https://github.com/gaelforget/ECCO-Docker) directly, as follows.  
+
+```
+ssh -L 8888:localhost:8888 -i path_to_id_rsa_key_PCLUSTER -X USERNAME@34.210.1.198
+
+source ecco-2024/book/tutorials/Julia_setup/setup_modules.csh
+module add singularity-3.8.3-gcc-11.1.0-wqau5pb
+
+singularity pull ecco-docker.sif docker://gaelforget/ecco-docker
+singularity run -p 8888:8888 ecco-docker.sif
+```
