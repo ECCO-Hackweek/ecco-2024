@@ -20,20 +20,7 @@ parts:
     - file: preliminary/oss_initial_repo
     - file: preliminary/Earthdata_credentials
     - file: preliminary/pcluster-login
-    - file:  tutorials/Julia_setup_index
-      sections:
-        - file: tutorials/Julia_setup/guidelines
-        - file: tutorials/Julia_setup/MITgcm_ECCO_grid
-        - file: tutorials/Julia_setup/MITgcm_test_run
-        - file: tutorials/Julia_setup/MITgcm_run_ECCO4
-        - file: tutorials/Julia_setup/particle_tracking
-        - file: tutorials/Julia_setup/ECCO_diagnostics
-        - file: tutorials/Julia_setup/Transports
-        - file: tutorials/Julia_setup/GOOS
-        - file: tutorials/Julia_setup/ArgoData
-        - file: tutorials/Julia_setup/SST
-        - file: tutorials/Julia_setup/SeaLevelAnomalies
-        - file: tutorials/Julia_setup/NSLCT
+    - file: preliminary/Julia_setup
 - caption: Tutorials
   chapters:
     - file:  tutorials/ECCO_gen_info_index
@@ -58,6 +45,19 @@ parts:
         - file: tutorials/ECCO_v4_computations/Steric_height
         - file: tutorials/ECCO_v4_computations/ECCO_v4_Example_MHT
         - file: tutorials/ECCO_v4_computations/ECCO_v4_Volume_budget_closure
+    - file: tutorials/Julia_ECCO_and_more_index
+      sections:
+        - file: tutorials/Julia_ECCO_and_more/MITgcm_ECCO_grid
+        - file: tutorials/Julia_ECCO_and_more/MITgcm_test_run
+        - file: tutorials/Julia_ECCO_and_more/MITgcm_run_ECCO4
+        - file: tutorials/Julia_ECCO_and_more/particle_tracking
+        - file: tutorials/Julia_ECCO_and_more/ECCO_diagnostics
+        - file: tutorials/Julia_ECCO_and_more/Transports
+        - file: tutorials/Julia_ECCO_and_more/GOOS
+        - file: tutorials/Julia_ECCO_and_more/ArgoData
+        - file: tutorials/Julia_ECCO_and_more/SST
+        - file: tutorials/Julia_ECCO_and_more/SeaLevelAnomalies
+        - file: tutorials/Julia_ECCO_and_more/NSLCT
     - file:  tutorials/pcluster_tutorial_index
       sections:
         - file: tutorials/pcluster/pcluster-spack_and_slurm

@@ -18,7 +18,7 @@ on:
 
     branches:
       - main
-      - gf_docs_edits
+      - julia_tutorials
 
 jobs:
   build-and-deploy:
