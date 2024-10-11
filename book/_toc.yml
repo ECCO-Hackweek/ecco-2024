@@ -15,10 +15,12 @@ parts:
   chapters:
     - file: preliminary/index
     - file: preliminary/checklist
+    - file: preliminary/oss_intro
+    - file: preliminary/git_access
     - file: preliminary/oss_initial_repo
-    - file: preliminary/pcluster-login
-    - file: preliminary/git
     - file: preliminary/Earthdata_credentials
+    - file: preliminary/pcluster-login
+    - file: preliminary/Julia_setup
 - caption: Tutorials
   chapters:
     - file:  tutorials/ECCO_gen_info_index
@@ -29,6 +31,7 @@ parts:
       sections:
         - file: tutorials/ECCO_data_access/ECCO_data_structure
         - file: tutorials/ECCO_data_access/ECCO_access_intro
+        - file: tutorials/ECCO_data_access/ECCO_access_modes
         - file: tutorials/ECCO_data_access/wget_download_tutorial
         - file: tutorials/ECCO_data_access/ECCO_subsets_tutorial
     - file:  tutorials/ECCO_v4_computations_index
@@ -42,6 +45,19 @@ parts:
         - file: tutorials/ECCO_v4_computations/Steric_height
         - file: tutorials/ECCO_v4_computations/ECCO_v4_Example_MHT
         - file: tutorials/ECCO_v4_computations/ECCO_v4_Volume_budget_closure
+    - file: tutorials/Julia_ECCO_and_more
+      sections:
+        - file: tutorials/Julia_ECCO_and_more/MITgcm_ECCO_grid
+        - file: tutorials/Julia_ECCO_and_more/MITgcm_test_run
+        - file: tutorials/Julia_ECCO_and_more/MITgcm_run_ECCO4
+        - file: tutorials/Julia_ECCO_and_more/particle_tracking
+        - file: tutorials/Julia_ECCO_and_more/ECCO_diagnostics
+        - file: tutorials/Julia_ECCO_and_more/Transports
+        - file: tutorials/Julia_ECCO_and_more/GOOS
+        - file: tutorials/Julia_ECCO_and_more/ArgoData
+        - file: tutorials/Julia_ECCO_and_more/SST
+        - file: tutorials/Julia_ECCO_and_more/SeaLevelAnomalies
+        - file: tutorials/Julia_ECCO_and_more/NSLCT
     - file:  tutorials/pcluster_tutorial_index
       sections:
         - file: tutorials/pcluster/pcluster-spack_and_slurm
@@ -62,6 +78,11 @@ parts:
     - file:  tutorials/git_use_index
       sections:
         - file: tutorials/git_use/Working_with_git
+    - file: tutorials/AD_tuts_index
+      sections:
+        - file: tutorials/AD_tuts/tutorial_self_ad.ipynb
+        - file: tutorials/AD_tuts/tutorial_tapenade_mountain_glacier.ipynb
+        - file: tutorials/AD_tuts/tutorial_mitgcm_ad_v2.ipynb
 - caption: Projects
   chapters:
     - file: projects/index

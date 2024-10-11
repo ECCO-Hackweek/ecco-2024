@@ -16,6 +16,9 @@ on:
       - 'cookiecutter.yaml'
     branches:
       - main
+  push:
+    branches:
+      - gf_docs_edits
 
 jobs:
   build-and-test:
