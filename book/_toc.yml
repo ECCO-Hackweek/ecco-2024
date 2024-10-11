@@ -15,10 +15,11 @@ parts:
   chapters:
     - file: preliminary/index
     - file: preliminary/checklist
+    - file: preliminary/oss_intro
     - file: preliminary/git_access
     - file: preliminary/oss_initial_repo
-    - file: preliminary/pcluster-login
     - file: preliminary/Earthdata_credentials
+    - file: preliminary/pcluster-login
     - file:  tutorials/Julia_setup_index
       sections:
         - file: tutorials/Julia_setup/guidelines
