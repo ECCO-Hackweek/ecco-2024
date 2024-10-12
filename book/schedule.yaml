@@ -121,7 +121,6 @@ tabs:
     description: Summary of Day, Announcements 
     time: 4:45 - 5:00 pm
 
-
 - title: Day 3
   date: Wednesday 16 October
   contents:
@@ -134,15 +133,21 @@ tabs:
     description: Teams report progress, open requests
     time: 8:15 - 9:00 am
 
+  - title: The OBS Fit Package
+    description: A MITgcm package for comparing the model and data in the data space
+    time: 9:00 - 9:15 am
+    leads:
+    - Shoshi Reich
+
   - title: Concepts in ECCO Budget Closure
     description: What's involved with closing volume, heat, and salinity/salt/freshwater budget with ECCO v4
-    time: 9:00 - 9:30 am
+    time: 9:15 - 9:35 am
     leads:
     - Margaret A Murakami
   
   - title: Closing the ECCO Volume Budget
     description: A close look at closing a budget with ECCO v4
-    time: 9:30 - 10:00 am
+    time: 9:35 - 10:00 am
     leads:
     - Andrew Delman
 
