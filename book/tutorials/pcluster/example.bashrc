@@ -132,5 +132,5 @@ module load singularity-3.8.3-gcc-11.1.0-wqau5pb
 module load python-3.9.7-gcc-11.1.0-cacmhhm
 
 # add new path
-export PATH="$PATH:/home/owang/.local/bin:/efs_ecco/ECCO/EMU/emu_userinterface_dir"
+export PATH="$PATH:$HOME/.local/bin:/efs_ecco/ECCO/EMU/emu_userinterface_dir"
 
