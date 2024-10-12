@@ -12,7 +12,7 @@
     "## Goals\n",
     "1. Understanding MITgcm data assimilation workflows\n",
     "2. Gain physical intuition for what to expect when constraining a general circulation model to observational data, particularly with regards to model sensitivity to controls\n",
-    "4. Probe model output using python tools `xmitgcm` and `xarray`\n",
+    "3. Probe model output using python tools `xmitgcm` and `xarray`\n",
 	"\n",
     "```{tip}\n",
     "A Jupyter Notebook, [labsea_assim_tutorial](../../../assets/lab_sea/labsea_assim_tutorial) (after downloading, rename it to `labsea_assim_tutorial.ipynb`), is provided for users' convenience. It reproduces the steps and figures described in this visualization tutorial. Users can also add more sophisticated analysis on top of this notebook. \n",
@@ -25,7 +25,7 @@
    "metadata": {},
    "source": [
     "### The model\n",
-    "We use a regional domain encompassing the Labrador Sea within the bounding box given by $79^\\circ E$, $41^\\circ E$,  $47^\\circ N$, and $77^\\circ N$. The domain has horizontal size $(n_x, n_y) = (16, 20)$ with $2^\\circ$ grid spacing in either horizontal direction. Unlike the verification exercises default configuration, we implement $n_z=21$ vertical levels. This tutorial takes advantage of the low number of spatial degrees of freedom combined with a short simulation time of 6 days to quickly demonstrate the key concepts to monitor when performing adjoint-based data assimilation. Higher resolution global ocean model adjoints are much more memory-intensive, but many of the same takeaways from this example will translate."
+    "We use a regional domain encompassing the Labrador Sea within the bounding box given by $79^\\circ $E, $41^\\circ $E,  $47^\\circ $N, and $77^\\circ $N. The domain has horizontal size $(n_x, n_y) = (16, 20)$ with $2^\\circ$ grid spacing in either horizontal direction. Unlike the verification exercises default configuration, we implement $n_z=21$ vertical levels. This tutorial takes advantage of the low number of spatial degrees of freedom combined with a short simulation time of 6 days to quickly demonstrate the key concepts to monitor when performing adjoint-based data assimilation. Higher resolution global ocean model adjoints are much more memory-intensive, but many of the same takeaways from this example will translate."
    ]
   },
   {
@@ -42,7 +42,7 @@
    "metadata": {},
    "source": [
     "### Run the forward model\n",
-    "The regional model is initalized with bathymetry (pictured above), initial temperature $\\theta_0$, initial salinity $S_0$, and a number of model parameters specified in `data`. For more info, please see the `input` directory. The model has been compiled with code from MITgcm `checkpoint68i` as well as a few modifications found in the `code` directory. The code directory is set up to compile the adjoint executable, but if one is just interested in simply analyzing model diagnostics or computing a misfit (but not *reducing* it), they can exclude `adjoint` from `code/packages.conf`. \n",
+    "The regional model is initalized with bathymetry (pictured above), initial temperature $\\theta_0$, initial salinity $S_0$, external forcings, and a number of model parameters specified in files like [data](../../../assets/lab_sea/input/data) within the `input` directory. The model has been compiled with MITgcm `checkpoint68i` code with specific modifications made in `code`. The code directory is set up to compile the adjoint executable, but if one is just interested in simply analyzing model diagnostics or computing a misfit (but not *reducing* it), they can exclude `adjoint` from `code/packages.conf`. \n",
     "\n",
     "Let's examine some forward model output produces in the 0th run directory `run/iter0000`. We use `xmitgcm.open_mdsdataset` to load diagnostic and model grid data."
    ]
@@ -212,7 +212,9 @@
     "\n",
     "In the first term, the misfit captures the discrepency between model and data, weighted by the our uncertainty in the observations. The second term acts as a numerical regularizer for the ill-posed inverse problem, penalizing deviations from the initial guess ${\\bf u}_0$. We aim to constrain our model trajectory towards the data, thereby reducing the cost. Let's compute the misfit offline to confirm we have a full understanding of how the model is coming up with $J$.\n",
     "\n",
-    "> Notation is taken from [Loose & Heimbach, 2021](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2020MS002386)."
+    "```{note}\n",
+    "Notation is taken from [Loose & Heimbach, 2021](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2020MS002386).\n",
+	"```\n"
    ]
   },
   {
@@ -361,7 +363,8 @@
     "\n",
     "There are various options available to the user when performing the optimization step specified in `data.optim` (see warning below). Of note, the user must indicate a desired cost reduction through e.g. the parameter `dfminFrac`. Typically, reductions of 2%-5% are attainable. Later on, we will plot the cost function reduction across 10 optimization iterations to see how well we did.\n",
     "\n",
-    "> **Warning** Confusingly, `data.optim` is also an input file used by MITgcm to instruct the model what optimization iteration it is running, but this is different from the file named `data.optim` used by `optim_m1qn3`. Furthermore, both softwares use input files by the name of `data.ctrl`, but they serve completely different purposes."
+    "> :::{warning}\n",
+	"> Confusingly, `data.optim` is also an input file used by MITgcm to instruct the model what optimization iteration it is running, but this is different from the file named `data.optim` used by `optim_m1qn3`. Furthermore, both softwares use input files by the name of `data.ctrl`, but they serve completely different purposes."
    ]
   },
   {
@@ -615,6 +618,51 @@
     "\n",
     "### Conclusion\n",
     "We demonstrated the workflows used to assimilate synthetic observational data into an unconstrained MITgcm model. Along the way, we investigated model diagnostics, sensitivity to controls, control perturbations, and cost function reduction across iterations. The reader is encouraged to play with different model parameters in `data`, explore other options for $J$ such as boxmean quantities of interest ([more info here](https://mitgcm.readthedocs.io/en/latest/ocean_state_est/ocean_state_est.html)), and further probe changes in model diagnostics between iteration 0 and 9 to understand exacly how the physics of the model changed in order to accomodate the data."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "e569f45a-8e50-4dfe-b1a7-570da336f9cc",
+   "metadata": {},
+   "source": [
+    "### `input` \n",
+    "- [data](../../../assets/lab_sea/input/data)\n",
+    "- [data.kpp](../../../assets/lab_sea/input/data.kpp)\n",
+    "- [data.autodiff](../../../assets/lab_sea/input/data.autodiff)\n",
+    "- [data.down_slope](../../../assets/lab_sea/input/data.down_slope)\n",
+    "- [data.mnc](../../../assets/lab_sea/input/data.mnc)\n",
+    "- [data.cal](../../../assets/lab_sea/input/data.cal)\n",
+    "- [data.ecco](../../../assets/lab_sea/input/data.ecco)\n",
+    "- [data.optim](../../../assets/lab_sea/input/data.optim)\n",
+    "- [data.cost](../../../assets/lab_sea/input/data.cost)\n",
+    "- [data.err](../../../assets/lab_sea/input/data.err)\n",
+    "- [data.pkg](../../../assets/lab_sea/input/data.pkg)\n",
+    "- [data.ctrl](../../../assets/lab_sea/input/data.ctrl)\n",
+    "- [data.exf](../../../assets/lab_sea/input/data.exf)\n",
+    "- [data.seaice](../../../assets/lab_sea/input/data.seaice)\n",
+    "- [data.exf_YearlyFields](../../../assets/lab_sea/input/data.exf_YearlyFields)\n",
+    "- [data_YearlyFields](../../../assets/lab_sea/input/data_YearlyFields)\n",
+    "- [data.diagnostics](../../../assets/lab_sea/input/data.diagnostics)\n",
+    "- [data.gmredi](../../../assets/lab_sea/input/data.gmredi)\n",
+    "- [eedata](../../../assets/lab_sea/input/eedata)\n",
+    "- [data.grdchk](../../../assets/lab_sea/input/data.grdchk)\n",
+    "\n",
+    "### `code`\n",
+    "- [DIAGNOSTICS_SIZE.h](../../../assets/lab_sea/code/DIAGNOSTICS_SIZE.h)\n",
+    "- [SIZE.h_mpi](../../../assets/lab_sea/code/SIZE.h_mpi)\n",
+    "- [AUTODIFF_OPTIONS.h](../../../assets/lab_sea/code/AUTODIFF_OPTIONS.h)\n",
+    "- [ECCO_OPTIONS.h](../../../assets/lab_sea/code/ECCO_OPTIONS.h)\n",
+    "- [cost_gencost_sstv4.F](../../../assets/lab_sea/code/cost_gencost_sstv4.F)\n",
+    "- [CPP_EEOPTIONS.h](../../../assets/lab_sea/code/CPP_EEOPTIONS.h)\n",
+    "- [EXF_OPTIONS.h](../../../assets/lab_sea/code/EXF_OPTIONS.h)\n",
+    "- [packages.conf](../../../assets/lab_sea/code/packages.conf)\n",
+    "- [CPP_OPTIONS.h](../../../assets/lab_sea/code/CPP_OPTIONS.h)\n",
+    "- [GMREDI_OPTIONS.h](../../../assets/lab_sea/code/GMREDI_OPTIONS.h)\n",
+    "- [tamc.h](../../../assets/lab_sea/code/tamc.h)\n",
+    "- [CTRL_OPTIONS.h](../../../assets/lab_sea/code/CTRL_OPTIONS.h)\n",
+    "- [SEAICE_OPTIONS.h](../../../assets/lab_sea/code/SEAICE_OPTIONS.h)\n",
+    "- [CTRL_SIZE.h](../../../assets/lab_sea/code/CTRL_SIZE.h)\n",
+    "- [SIZE.h](../../../assets/lab_sea/code/SIZE.h)\n"
    ]
   }
  ],
