@@ -1,0 +1,21 @@
+# ******************
+# ECCO cost function
+# ******************
+ &ECCO_COST_NML
+ cost_iprec  = 64,
+ &
+
+ &ECCO_GENCOST_NML
+ gencost_avgperiod(3) = 'day',
+ gencost_barfile(3) = 'm_sst_day',
+ gencost_datafile(3) = 'labsea_SST_fields_linear_rec006',
+ gencost_errfile(3) = 'sigma_sst_p010402_mod.bin',
+ gencost_name(3) = 'sst',
+ gencost_startdate1(3) = 19790101,
+ gencost_startdate2(3) = 00000,
+ gencost_spmin(3) = -1.8,
+ gencost_spmax(3) = 40.,
+ gencost_spzero(3) = -9999.,
+ gencost_outputlevel(3)=1,
+ mult_gencost(3) = 1.,
+ &
