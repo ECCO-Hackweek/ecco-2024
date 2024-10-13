@@ -58,6 +58,8 @@ parts:
         - file: tutorials/Julia_ECCO_and_more/SST
         - file: tutorials/Julia_ECCO_and_more/SeaLevelAnomalies
         - file: tutorials/Julia_ECCO_and_more/NSLCT
+        - file: tutorials/Julia_ECCO_and_more/Adjoint_and_Optim_in_Julia
+        - file: tutorials/Julia_ECCO_and_more/ClimateModels_interface
     - file:  tutorials/pcluster_tutorial_index
       sections:
         - file: tutorials/pcluster/pcluster-spack_and_slurm
