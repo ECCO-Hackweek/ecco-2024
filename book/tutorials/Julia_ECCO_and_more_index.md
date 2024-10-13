@@ -20,7 +20,8 @@ The included notebooks can be run on OSS, p-cluster, your own laptop, or using t
 | [Explore SST data and compare to ECCO](./Julia_ECCO_and_more/SST.ipynb) | OISST data, SST in ECCO, Anomaly Maps, Time Series, Marine Heat Waves |
 | [Explore Sea Level Anomalies and ECCO](./Julia_ECCO_and_more/SeaLevelAnomalies.ipynb) | Altimetry, PODAAC, ECCO, GRACE, cost funtions |
 | [Explore NSLCT data and compare to ECCO](./Julia_ECCO_and_more/NSLCT.ipynb) | Sea Level Change Team, observations, projections |
-| [Automatic Differentiation and Optimization](.tutorials/Julia_ECCO_and_more/Adjoint_and_Optim_in_Julia.ipynb) | Adjoint, Automatic Differentiation, Optimization, Line Search |
+| [Automatic Differentiation and Optimization](./Julia_ECCO_and_more/Adjoint_and_Optim_in_Julia.ipynb) | Adjoint, Automatic Differentiation, Optimization, Line Search |
+| [Interface to Models in Various Languages](./Julia_ECCO_and_more/ClimateModels_interface.ipynb) | MITgcm, Other Models, Automated Workflows|
 
 ## p-cluster
 
