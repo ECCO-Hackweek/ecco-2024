@@ -18,6 +18,7 @@ on:
 
     branches:
       - main
+      - julia_tutorials
 
 jobs:
   build-and-deploy:

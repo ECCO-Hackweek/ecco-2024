@@ -33,7 +33,7 @@ export MPI_DISPLAY_SETTINGS=""
 # Set processor count and directory paths
 nprocs=96
 basedir="./"
-inputdir=/efs/owang/ECCO/V4/r4/WORKINGDIR/ECCOV4/release4/input/
+inputdir=/efs_ecco/owang/ECCO/V4/r4/WORKINGDIR/ECCOV4/release4/input/
 
 # Create run directory
 if [ -d "${basedir}/run" ]; then

@@ -3,150 +3,300 @@ tabs:
 - title: Day 1
   date: Monday 14 October
   contents:
-  - title: Introductory Session
-    description: Welcome and getting to know each other.
-    time: 8:30 - 9:00
+  
+  - title: Hackweek Kickoff
+    description: Welcome, Logistics, and Introductions 
+    time: 8:00 - 9:00 am
+      
+  - title: ECCO Resources and Tools
+    description: Overview ECCO V4 datasets, Python & Julia tools and EMU.
+    time: 9:00 - 10:00 am
     leads:
-    - Ian Fenty 
-  - title: Open Science System 
-    description: Getting connected to our shared computational resources. JupyterHub, P-Cluster, and EFS volume
-    time: 9:30 - 10:30
-    leads:
-    - Andrew Delman 
-  - title: BREAK
+    - Ian Fenty, Ichiro Fukumori, and Gael Forget
+
+  - title: Coffee Break
     description: null
-    time: 10:00 - 10:30
-  - title: ECCO Overview and Data
-    description: Summary of ECCO datasets and science applications.
-    time: 10:30 - 11:00
+    time: 10:00 - 10:30 am
+  
+  - title: Hackweek Cloud Compute Resources
+    description: Getting connected to our shared computational resources. OSS JupyterHub, P-Cluster, and efs_ecco.
+    time: 10:30 - 11:15 am
     leads:
-    - TBD 
-  - title: Introduction to the ECCO Python Tutorials 
-    description: An overview of the library of Python Tutorials for ECCO analysis 
-    time: 11:00 - 12:00
-    leads:
-    - TBD 
-  - title: LUNCH
+    - Andrew Delman,  Ou Wang 
+      
+  - title: Lunch
     description: null
-    time: 12:00 - 13:00
-  - title: OPEN PROJECT WORK
+    time: 11:15 - 12:30 pm
+  
+  - title: Project Pitches 
+    description: Open forum for individuals to pitch project ideas 
+    time: 12:30 - 1:30 pm
+
+  - title: Project Team organization 
+    description: Open time to organize into project teams 
+    time: 1:30 - 2:30 pm
+
+  - title: Coffee Break
     description: null
-    time: 13:00 - 17:00
+    time: 2:30 - 3:00 pm
+
+  - title: Accessing ECCO data products 
+    description: Different methods for accessing ECCO data products in and out of the cloud
+    time: 3:00 - 3:30 pm
+
+  - title: Open Project Time
+    description: Team-led project work
+    time: 3:30 - 4:45 pm
+
+  - title: Daily Wrap / Updates
+    description: Summary of Day, Announcements 
+    time: 4:45 - 5:00 pm
+
+  - title: Social Activity -- Local Pub
+    description: Kings Row Gastropub in Old Town Pasadena
+    time: 5:30 - 7:30 pm
+
+
 - title: Day 2
   date: Tuesday 15 October 
   contents:
-  - title: Cloud data access and data formats
-    description: Approaches for accessing and subsetting ECCO data in a cloud
-      environment.
-    time: 8:30 - 10:00
+  
+  - title: Daily Kick-off
+    description: Annoucements / Housekeeping
+    time: 8:00 - 8:15 am
+  
+  - title: Greetings from NASA HQ
+    description: NASA Ocean Physics Program Manager Nadya Vinogradova-Shiffer welcomes Hackweek participants
+    time: 8:15 - 8:30 am
+
+  - title: Team Daily Project Report
+    description: Teams report progress, open requests
+    time: 8:30 - 9:00 am
+
+  - title: EMU Demonstration
+    description: Arctic Bottom Pressure Oscillation Case study using ECCO Modeling Tools
+    time: 9:00 - 9:30 am
     leads:
-    - Marie Zahn 
-  - title: BREAK
-    description: null
-    time: 10:00 - 10:30
-  - title: Using Dask/Xarray for Parallel Computations 
-    description: Best practices for using Python Dask and Xarray libraries to analyze ECCO fields
-    time: 10:30 - 11:30
+    - Ichiro Fukumori
+
+  - title: ECCO & Julia
+    description: Demonstration of Julia Tools for ECCO
+    time: 9:30 - 10:00 am
     leads:
-    - Ian Fenty 
-  - title: Group STAND-UP
-    description: Demonstration of a daily stand-up as part of your project collaboration.
-    time: 11:30 - 12:00
+    - Gael Forget
+
+  - title: Coffee Break
+    description: null
+    time: 10:00 - 10:15 am
+  
+  - title: Automatic Differentiation & Tapanade
+    description: 
+    time: 10:15 - 10:45 am
     leads:
-    - TBD 
-  - title: LUNCH
+    - Shreyas Gaikwad 
+  
+  - title: Steric Height with Python  
+    description: 
+    time: 10:45 - 11:15 am
+    leads:
+    - Andrew Delman
+  
+  - title: Lunch 
     description: null
-    time: 12:00 - 13:00
-  - title: OPEN PROJECT WORK
+    time: 11:15 - 12:30 pm
+  
+  - title: Open Project Time 
+    description: Team-led project work
+    time: 12:30 - 2:30 pm
+
+  - title: Coffee Break
     description: null
-    time: 13:00 - 17:00
+    time: 2:30 - 2:45 pm
+
+  - title: Open Project Time
+    description: Team-led project work
+    time: 2:45 - 4:45 pm
+
+  - title: Daily Wrap / Updates
+    description: Summary of Day, Announcements 
+    time: 4:45 - 5:00 pm
+
 - title: Day 3
   date: Wednesday 16 October
   contents:
-  - title: 'Applications: ocean temperature and salinity variability'
-    description: Applications of ECCO for investigating ocean temperature and salinity variability.
-    time: 8:30 - 9:15
+  
+  - title: Daily Kick-off 
+    description: Annoucements / Housekeeping
+    time: 8:00 - 8:15 am
+  
+  - title: Team Daily Project Report  
+    description: Teams report progress, open requests
+    time: 8:15 - 9:00 am
+
+  - title: The OBS Fit Package
+    description: A MITgcm package for comparing the model and data in the data space
+    time: 9:00 - 9:15 am
     leads:
-    - TBD 
-  - title: 'Applications: regional and global sea level'
-    description: Applications of ECCO for studies of regional and global sea level.
-    time: 9:15 - 10:00
+    - Shoshi Reich
+
+  - title: Concepts in ECCO Budget Closure
+    description: What's involved with closing volume, heat, and salinity/salt/freshwater budget with ECCO v4
+    time: 9:15 - 9:35 am
     leads:
-    - TBD 
-  - title: BREAK
-    description: null
-    time: 10:00 - 10:30
-  - title: 'Julia'
-    description: Introduction of Julia libraries for ECCO' 
-    time: 10:30 - 11:15
+    - Margaret A Murakami
+  
+  - title: Closing the ECCO Volume Budget
+    description: A close look at closing a budget with ECCO v4
+    time: 9:35 - 10:00 am
     leads:
-    - Gael Forget 
-  - title: Group STAND-UP & OPEN PROJECT WORK
+    - Andrew Delman
+
+  - title: Coffee Break  
     description: null
-    time: 11:15 - 12:00
-  - title: LUNCH
+    time: 10:00 - 10:15 am
+  
+  - title: Calculating Transports
+    description: Volume, heat, and salinity transports using ecco_v4_py
+    time: 10:15 - 10:45 am
+    leads:
+    - Ian Fenty
+  
+  - title: Fitting the MITgcm to Data
+    description: Demonstration of optimizing the model to observations
+    time: 10:45 - 11:15 am
+    leads:
+    - Matthew Goldberg
+  
+  - title: Lunch 
     description: null
-    time: 12:00 - 13:00
-  - title: OPEN PROJECT WORK
+    time: 11:15 - 12:30 pm
+  
+  - title: Open Project Time 
+    description: Team-led project work
+    time: 12:30 - 2:30 pm
+
+  - title: Coffee Break
     description: null
-    time: 13:00 - 17:00
+    time: 2:30 - 2:45 pm
+
+  - title: Open Project Time
+    description: Team-led project work
+    time: 2:45 - 4:45 pm
+
+  - title: Daily Wrap / Updates
+    description: Summary of Day, Announcements 
+    time: 4:45 - 5:00 pm
+   
+  - title: SOCIAL ACTIVITY -- No-Host Group Dinner 
+    description: Saladang Garden, 383 S Fair Oaks Ave Pasadena
+    time: 5:30 - 8:00 pm
+
+
 - title: Day 4
   date: Thursday 17 October
   contents:
-  - title: 'Applications: mass variability'
-    description: Applications of ECCO for investigating the causes of ocean mass variability.
-    time: 8:30 - 9:15
+
+  - title: Daily Kick-off
+    description: Annoucements / Housekeeping
+    time: 8:00 - 8:15 am
+  
+  - title: Team Daily Project Report
+    description: Teams report progress, open requests
+    time: 8:15 - 9:00 am
+
+  - title: (Re) Mapping Model and Data 
+    description: Different approaches to (re)mapping model output and observations 
+    time: 9:00 - 9:30 am
     leads:
-    - TBD 
-  - title: 'TBD'
-    description: TBD
-    time: 9:30 - 10:15
+    - Ian Fenty
+  
+  - title: Using Dask on the Cloud
+    description: Parallel computing using Dask in Cloud Environments
+    time: 9:30 - 10:00 am
     leads:
-    - TBD 
-  - title: BREAK
+    - Ian Fenty
+
+  - title: Coffee Break
     description: null
-    time: 10:00 - 10:30
-  - title: TBD
-    description: TBD 
-    time: 10:30 - 11:15
+    time: 10:00 - 10:15 am
+  
+  - title: Topic TBD
+    description: Time reserved for topics that come up during the hackweek
+    time: 10:15 - 10:45 am
     leads:
-    - TBD 
-  - title: Group STAND-UP & OPEN PROJECT WORK
+    - TBD
+  
+  - title: Topic TBD
+    description: Time reserved for topics that come up during the hackweek
+    time: 10:45 - 11:15 am
+    leads:
+    - TBD
+
+  - title: Lunch 
     description: null
-    time: 11:15 - 12:00
-  - title: LUNCH
+    time: 11:15 - 12:30 pm
+  
+  - title: Open Project Time 
+    description: Team-led project work
+    time: 12:30 - 2:30 pm
+
+  - title: Coffee Break
     description: null
-    time: 12:00 - 13:00
-  - title: OPEN PROJECT WORK
-    description: null
-    time: 13:00 - 17:00
+    time: 2:30 - 2:45 pm
+
+  - title: Open Project Time
+    description: Team-led project work
+    time: 2:45 - 4:45 pm
+
+  - title: Daily Wrap / Updates
+    description: Summary of Day, Announcements 
+    time: 4:45 - 5:00 pm
+
+
 - title: Day 5
   date: Friday 18 October
   contents:
-  - title: 'Applications: TBD'
-    description: TBD
-    time: 8:30 - 9:15
-    leads:
-    - TBD
-  - title: 'TBD'
-    description: TBD
-    time: 9:30 - 10:15
-    leads:
-    - TBD 
-  - title: BREAK
+
+  - title: Daily Kick-off
+    description: Annoucements / Housekeeping
+    time: 8:00 - 8:15 am
+  
+  - title: NASA's SWOT mission
+    description: Jinbo Wang from JPL will talk about the SWOT mission
+    time: 8:15 - 8:45 am
+
+  - title: ECCO Future Directions
+    description: Patrick Heimbach will highlight some future directions in ECCO
+    time: 8:45 - 9:15 am
+    
+  - title: Open Project Time
+    description: Team-led project work
+    time: 9:15 - 10:00 am
+
+  - title: Coffee Break
     description: null
-    time: 10:00 - 10:30
-  - title: TBD
-    description: TBD 
-    time: 10:30 - 11:15
-    leads:
-    - TBD 
-  - title: Group STAND-UP & OPEN PROJECT WORK
+    time: 10:00 - 10:15 am
+  
+  - title: Open Project Time
+    description: Team-led project work
+    time: 10:15 - 11:15 
+
+  - title: Lunch 
     description: null
-    time: 11:15 - 12:00
-  - title: LUNCH
+    time: 11:15 - 12:30 pm
+  
+  - title: Final Project Presentations
+    description: Teams present their work and project posters
+    time: 12:30 - 2:30 pm
+
+  - title: Coffee Break
     description: null
-    time: 12:00 - 13:00
-  - title: Group Final Presentations 
-    description: null
-    time: 14:00 - 16:00
+    time: 2:30 - 2:45 pm
+
+  - title: Open Individual Time
+    description: Open time with mentors
+    time: 2:45 - 4:45 pm
+
+  - title: Final Wrap
+    description: Congratulations you made it!
+    time: 4:45 - 5:00 pm

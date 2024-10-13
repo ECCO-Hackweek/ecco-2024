@@ -15,6 +15,8 @@ from .ecco_s3_retrieve import ecco_podaac_s3_get_diskaware
 
 from .ecco_acc_dates import date_adjustment
 
+from .ecco_varlist import ecco_podaac_varlist_query
+
 
 def ecco_podaac_access(query,version='v4r4',grid=None,time_res='all',\
                 StartDate=None,EndDate=None,snapshot_interval=None,\
@@ -44,8 +46,8 @@ def ecco_podaac_access(query,version='v4r4',grid=None,time_res='all',\
     
     grid: ('native','latlon',None), specifies whether to query datasets with output
           on the native grid or the interpolated lat/lon grid.
-          The default None will query both types of grids, unless specified 
-          otherwise in a query dict (e.g., the example above).
+          The default None will query both types of grids (and datasets with no spatial
+          dimension), unless specified otherwise in a query dict (e.g., the example above).
     
     time_res: ('monthly','daily','snapshot','all'), specifies which time resolution 
               to include in query and downloads. 'all' includes all time resolutions, 
@@ -146,7 +148,8 @@ def ecco_podaac_access(query,version='v4r4',grid=None,time_res='all',\
             if 'ECCO_' in query_item:
                 shortnames_list.append(query_item)
             else:
-                print('query is not a ShortName')
+                shortname_match = ecco_podaac_varlist_query(query_item,version,grid,time_res)
+                shortnames_list.append(shortname_match)
         
         return shortnames_list
     
@@ -156,6 +159,11 @@ def ecco_podaac_access(query,version='v4r4',grid=None,time_res='all',\
     if isinstance(query,dict):
         shortnames = []
         for gridtime_spec,curr_query in query.items():
+            try:
+                curr_grid,curr_time_res = gridtime_spec.split(',')
+            except:
+                raise ValueError("Keys of dict 'query' must be of the form grid,time_res\n'\
+                                 +'with 1 comma in the middle")
             if isinstance(curr_query,str):
                 curr_query = [curr_query]
             shortnames += shortnames_find(curr_query,\
