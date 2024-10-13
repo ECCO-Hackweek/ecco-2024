@@ -360,8 +360,6 @@
    "outputs": [],
    "source": [
     "# Extract Return Variables and Reproudce plot by Method 1\n",
-    "import numpy as np\n",
-    "import matplotlib.pyplot as plt\n",
     "import lib_python\n",
     "\n",
     "fgrd2d_all = return_vars_dict['variable']\n",

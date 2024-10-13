@@ -1,0 +1,14 @@
+- title: Matthew Goldberg
+  avatar: https://mgoldberg10.github.io/assets/images/MattGoldberg.jpeg
+  role: Ph.D. candidate
+  organizations:
+    - name: University of Texas at Austin
+  bio: Matt studies observing system design in regional ocean models with a focus on subsea cable data assimilation.
+  expertise:
+    - Regional ocean models
+    - Data assimilation
+  social:
+    - icon: github
+      link: https://github.com/mgoldberg10
+  user_groups:
+    - Instructor 

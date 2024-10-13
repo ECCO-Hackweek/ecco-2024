@@ -58,6 +58,7 @@ parts:
         - file: tutorials/Julia_ECCO_and_more/SST
         - file: tutorials/Julia_ECCO_and_more/SeaLevelAnomalies
         - file: tutorials/Julia_ECCO_and_more/NSLCT
+        - file: tutorials/Julia_ECCO_and_more/Adjoint_and_Optim_in_Julia
     - file:  tutorials/pcluster_tutorial_index
       sections:
         - file: tutorials/pcluster/pcluster-spack_and_slurm
@@ -83,6 +84,9 @@ parts:
         - file: tutorials/AD_tuts/tutorial_self_ad.ipynb
         - file: tutorials/AD_tuts/tutorial_tapenade_mountain_glacier.ipynb
         - file: tutorials/AD_tuts/tutorial_mitgcm_ad_v2.ipynb
+    - file: tutorials/mitgcm_assim_index
+      sections:
+        - file: tutorials/mitgcm_assim/labsea_assim_tutorial.ipynb
 - caption: Projects
   chapters:
     - file: projects/index
