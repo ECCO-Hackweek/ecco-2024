@@ -67,6 +67,7 @@ parts:
         - file: tutorials/AD_tuts/tutorial_self_ad.ipynb
         - file: tutorials/AD_tuts/tutorial_tapenade_mountain_glacier.ipynb
         - file: tutorials/AD_tuts/tutorial_mitgcm_ad_v2.ipynb
+        - file: tutorials/AD_tuts/tutorial_slides_example.ipynb
 - caption: Projects
   chapters:
     - file: projects/index
