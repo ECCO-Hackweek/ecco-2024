@@ -35,7 +35,7 @@ def ecco_podaac_access(query,version='v4r4',grid=None,time_res='all',\
     query: str, list, or dict, defines datasets or variables to access.
            If query is str, it specifies either a dataset ShortName (if query 
            matches a NASA Earthdata ShortName), or a text string that can be 
-           used to search the ShortNames, variable names, and descriptions.
+           used to search the ECCO ShortNames, variable names, and descriptions.
            A query may also be a list of multiple ShortNames and/or text searches, 
            or a dict that contains grid,time_res specifiers as keys and ShortNames 
            or text searches as values, e.g.,
@@ -304,7 +304,7 @@ def ecco_podaac_to_xrdataset(query,version='v4r4',grid=None,time_res='all',\
     query: str, list, or dict, defines datasets or variables to access.
            If query is str, it specifies either a dataset ShortName (if query 
            matches a NASA Earthdata ShortName), or a text string that can be 
-           used to search the ShortNames, variable names, and descriptions.
+           used to search the ECCO ShortNames, variable names, and descriptions.
            A query may also be a list of multiple ShortNames and/or text searches, 
            or a dict that contains grid,time_res specifiers as keys and ShortNames 
            or text searches as values, e.g.,
