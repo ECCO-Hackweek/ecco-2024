@@ -1,6 +1,5 @@
 ### This function allows users to query ECCO variables and datasets, and then gain access via direct download, or opening files remotely on S3
 
-
 from .ecco_download import ecco_podaac_query
 from .ecco_download import ecco_podaac_download
 from .ecco_download import ecco_podaac_download_diskaware
@@ -18,6 +17,9 @@ from .ecco_acc_dates import date_adjustment
 from .ecco_varlist import ecco_podaac_varlist_query
 
 
+import requests
+
+
 def ecco_podaac_access(query,version='v4r4',grid=None,time_res='all',\
                 StartDate=None,EndDate=None,snapshot_interval=None,\
                 mode='download_ifspace',download_root_dir=None,**kwargs):
@@ -31,9 +33,9 @@ def ecco_podaac_access(query,version='v4r4',grid=None,time_res='all',\
     Parameters
     ----------    
     query: str, list, or dict, defines datasets or variables to access.
-           If query is str, it specifies either a dataset ShortName (which is 
-           assumed if the string begins with 'ECCO_'), or a text string that 
-           can be used to search the ShortNames, variable names, and descriptions.
+           If query is str, it specifies either a dataset ShortName (if query 
+           matches a NASA Earthdata ShortName), or a text string that can be 
+           used to search the ShortNames, variable names, and descriptions.
            A query may also be a list of multiple ShortNames and/or text searches, 
            or a dict that contains grid,time_res specifiers as keys and ShortNames 
            or text searches as values, e.g.,
@@ -145,7 +147,11 @@ def ecco_podaac_access(query,version='v4r4',grid=None,time_res='all',\
     def shortnames_find(query_list,grid,time_res):
         shortnames_list = []
         for query_item in query_list:
-            if 'ECCO_' in query_item:
+            # see if the query is an existing NASA Earthdata ShortName
+            # if not, then do a text search of the ECCO variable lists
+            response = requests.get(url="https://cmr.earthdata.nasa.gov/search/collections.json", 
+                                    params={'ShortName':query_item})
+            if len(response.json()['feed']['entry']) > 0:
                 shortnames_list.append(query_item)
             else:
                 shortname_match = ecco_podaac_varlist_query(query_item,version,grid,time_res)
