@@ -48,9 +48,6 @@ parts:
     - file: tutorials/Julia_ECCO_and_more_index
       sections:
         - file: tutorials/Julia_ECCO_and_more/MITgcm_ECCO_grid
-        - file: tutorials/Julia_ECCO_and_more/MITgcm_test_run
-        - file: tutorials/Julia_ECCO_and_more/MITgcm_run_ECCO4
-        - file: tutorials/Julia_ECCO_and_more/particle_tracking
         - file: tutorials/Julia_ECCO_and_more/ECCO_diagnostics
         - file: tutorials/Julia_ECCO_and_more/Transports
         - file: tutorials/Julia_ECCO_and_more/GOOS
@@ -58,6 +55,9 @@ parts:
         - file: tutorials/Julia_ECCO_and_more/SST
         - file: tutorials/Julia_ECCO_and_more/SeaLevelAnomalies
         - file: tutorials/Julia_ECCO_and_more/NSLCT
+        - file: tutorials/Julia_ECCO_and_more/MITgcm_test_run
+        - file: tutorials/Julia_ECCO_and_more/MITgcm_run_ECCO4
+        - file: tutorials/Julia_ECCO_and_more/particle_tracking
         - file: tutorials/Julia_ECCO_and_more/Adjoint_and_Optim_in_Julia
         - file: tutorials/Julia_ECCO_and_more/ClimateModels_interface
     - file:  tutorials/pcluster_tutorial_index
