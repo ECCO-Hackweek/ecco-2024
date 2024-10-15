@@ -89,7 +89,7 @@ tabs:
     description: null
     time: 10:00 - 10:15 am
   
-  - title: Automatic Differentiation & Tapanade
+  - title: Basics of Adjoints & Algorithmic Differentiation
     description: 
     time: 10:15 - 10:45 am
     leads:
