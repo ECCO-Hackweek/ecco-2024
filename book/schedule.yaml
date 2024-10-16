@@ -133,34 +133,34 @@ tabs:
     description: Teams report progress, open requests
     time: 8:15 - 9:00 am
 
+  - title: Team Project Repositories & Project Posters
+    description: We'll set up the team project repositories and describe the final project posters 
+    time: 9:00 - 9:20 am
+    leads:
+    - Gael Forget & Ian Fenty 
+
   - title: The OBS Fit Package
     description: A MITgcm package for comparing the model and data in the data space
-    time: 9:00 - 9:15 am
+    time: 9:20 - 9:35 am
     leads:
     - Shoshi Reich
 
   - title: Concepts in ECCO Budget Closure
     description: What's involved with closing volume, heat, and salinity/salt/freshwater budget with ECCO v4
-    time: 9:15 - 9:35 am
+    time: 9:35 - 10:00 am
     leads:
     - Margaret A Murakami
   
-  - title: Closing the ECCO Volume Budget
-    description: A close look at closing a budget with ECCO v4
-    time: 9:35 - 10:00 am
-    leads:
-    - Andrew Delman
-
   - title: Coffee Break  
     description: null
     time: 10:00 - 10:15 am
-  
-  - title: Calculating Transports
-    description: Volume, heat, and salinity transports using ecco_v4_py
+
+  - title: Closing the ECCO Volume Budget
+    description: A close look at closing a budget with ECCO v4
     time: 10:15 - 10:45 am
     leads:
-    - Ian Fenty
-  
+    - Andrew Delman
+
   - title: Fitting the MITgcm to Data
     description: Demonstration of optimizing the model to observations
     time: 10:45 - 11:15 am
