@@ -21,6 +21,7 @@ parse:
     dataset: "INSERT_DATA_SET_NAME"
     anon_reporting_url: "https://INSERT_FORM_LINK"
     project_spreadsheet_url: "https://INSERT_GOOGLE_SHEET"
+    presentations_url: "https://drive.google.com/drive/folders/1EmQ4el3x79ZULBKuzRfOK1RI-9EanCA6?usp=drive_link"
   myst_enable_extensions:
     # Defaults
     - dollarmath

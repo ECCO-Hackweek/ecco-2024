@@ -8,5 +8,5 @@
 * JupyterHub: {{ jupyterhub_url }}
 * GitHub organization: {{ github_org_url}}
 * Slack Workspace: {{ slack_workspace_url }}
-* Projects Spreadsheet: {{ project_spreadsheet_url }}
+* Presentations: {{ presentations_url }}
 ```
