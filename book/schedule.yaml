@@ -204,41 +204,29 @@ tabs:
     description: Teams report progress, open requests
     time: 8:15 - 9:00 am
 
-  - title: (Re) Mapping Model and Data 
-    description: Different approaches to (re)mapping model output and observations 
-    time: 9:00 - 9:30 am
-    leads:
-    - Ian Fenty
-  
-  - title: Using Dask on the Cloud
-    description: Parallel computing using Dask in Cloud Environments
-    time: 9:30 - 10:00 am
-    leads:
-    - Ian Fenty
+  - title: Open Project Time 
+    description: Team-led project work
+    time: 9:00 - 10:00 am
 
   - title: Coffee Break
     description: null
     time: 10:00 - 10:15 am
   
-  - title: Topic TBD
-    description: Time reserved for topics that come up during the hackweek
-    time: 10:15 - 10:45 am
-    leads:
-    - TBD
-  
-  - title: Topic TBD
-    description: Time reserved for topics that come up during the hackweek
-    time: 10:45 - 11:15 am
-    leads:
-    - TBD
+  - title: Open Project Time
+    description: Team-led project work
+    time: 10:15 - 11:00 am
 
   - title: Lunch 
     description: null
-    time: 11:15 - 12:30 pm
+    time: 11:00 - 12:15 pm
   
+  - title: AD and UQ
+    description: Applications of the adjoint for uncertainty-quantification 
+    time: 12:15 - 12:45 
+
   - title: Open Project Time 
     description: Team-led project work
-    time: 12:30 - 2:30 pm
+    time: 12:45 - 2:30 pm
 
   - title: Coffee Break
     description: null
