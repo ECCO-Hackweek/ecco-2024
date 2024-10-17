@@ -252,14 +252,10 @@ tabs:
   - title: NASA's SWOT mission
     description: Jinbo Wang from JPL will talk about the SWOT mission
     time: 8:15 - 8:45 am
-
-  - title: ECCO Future Directions
-    description: Patrick Heimbach will highlight some future directions in ECCO
-    time: 8:45 - 9:15 am
     
   - title: Open Project Time
     description: Team-led project work
-    time: 9:15 - 10:00 am
+    time: 8:45 - 10:00 am
 
   - title: Coffee Break
     description: null
@@ -267,15 +263,23 @@ tabs:
   
   - title: Open Project Time
     description: Team-led project work
-    time: 10:15 - 11:15 
+    time: 10:15 - 10:45 am
+
+  - title: Final Project Presentations (2)
+    description: Teams present their work and project posters
+    time: 10:30 - 11:00 am
 
   - title: Lunch 
     description: null
-    time: 11:15 - 12:30 pm
+    time: 11:00 - 12:30 pm
   
-  - title: Final Project Presentations
+  - title: Final Project Presentations (6)
     description: Teams present their work and project posters
-    time: 12:30 - 2:30 pm
+    time: 12:30 - 2:00 pm
+
+  - title: ECCO Future Directions
+    description: moderated by Ichiro Fukumori
+    time: 2:00 - 2:30 pm
 
   - title: Coffee Break
     description: null
