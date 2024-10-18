@@ -93,6 +93,7 @@ parts:
     - file: tutorials/SWOT_index
       sections:
         - file: tutorials/SWOT/swot_direct_s3.ipynb
+        - file: tutorials/SWOT/swot_ssh_functions.ipynb
 - caption: Projects
   chapters:
     - file: projects/index
