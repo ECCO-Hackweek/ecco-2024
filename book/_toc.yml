@@ -90,6 +90,9 @@ parts:
     - file: tutorials/mitgcm_assim_index
       sections:
         - file: tutorials/mitgcm_assim/labsea_assim_tutorial.ipynb
+    - file: tutorials/SWOT_index
+      sections:
+        - file: tutorials/SWOT/swot_direct_s3.ipynb
 - caption: Projects
   chapters:
     - file: projects/index
