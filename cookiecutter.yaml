@@ -1,15 +1,14 @@
 repo_directory: html
-name: ECCO Hackweek
+name: ECCO Summer School
 apply:
-  url: #
-# https://forms.gle/kSAw4Meg2ByAgnj99
-  title: Applications are Closed
+  url: https://forms.gle/U18vUG1pqqmRGPdz7
+  title: Apply Now!
 banner:
   description: "Tutorials + peer-to-peer learning + project based teamwork using NASA's ECCO Ocean State Estimate"
-  start_date: 14 
-  end_date: 18 October
-  year: 2024
-  location: Pasadena, CA
+  start_date: 19 
+  end_date: 30 May
+  year: 2025
+  location: Pacific Grove, CA
   links:
   - url: intro.html
     title: Event Jupyter Book
@@ -17,15 +16,13 @@ banner:
   - url: logistics.html
     title: Event Logistics 
     new_window: false
-  image: https://www.nasa.gov/wp-content/uploads/2024/08/iss071e522460.jpg
+  # nabibia
+  #image: https://www.nasa.gov/wp-content/uploads/2024/08/iss071e522460.jpg
+  image: https://www.nasa.gov/wp-content/uploads/2023/03/5091372229_ebca868ffd_o.jpeg
 # The opening session of the event with UTC offset
-event_countdown: "2024-10-14T08:30:00-07:00"
+event_countdown: "2025-05-19T08:30:00-07:00"
 about:
-  description: Hackweeks are participant-driven events that strive to create
-    welcoming spaces for participants to learn new things, build community and
-    gain hands-on experience with collaboration and team science. 
-    The 2024 ECCO Hackweek leverages materials developed by the 
-    hackweek team at the University of Washington&#39;s eScience Institute.
+  description: Immerse yourself in a two-week, hands-on exploration of ocean state estimation, held from May 19 to May 30, 2025, in the stunning coastal setting of Pacific Grove, California, USA. This intensive program blends expert-led lectures, interactive tutorials, peer-to-peer learning, and collaborative team projects, providing a deep dive into the principles and applications of ocean state estimation. Taught by leading researchers in oceanography, geophysical fluid dynamics, and geophysical data science, the course is designed for graduate students, postdocs, and early-career scientists eager to advance their understanding of ocean and climate dynamics. Attendance is free, and limited travel support is available. Don’t miss this opportunity to learn, collaborate, and engage with the cutting edge of ocean research!
   learn_more: https://escience.washington.edu/using-data-science/hackweeks
   links:
     - url: https://oceanhackweek.org/ohw24/
@@ -34,7 +31,7 @@ about:
     - url: https://icesat-2.hackweek.io/
       title: ICESat-2 Hackweek 2024
       new_window: True
-applicant_info: The 2024 ECCO Hackweek will take place in October 2024. Applications are open until September 15, 2024.
+applicant_info: The 2025 ECCO Summer School will take place in May 2025. Applications are open until March 17, 2025.
 team:
   !include team/team.yaml
 schedule:
@@ -48,7 +45,7 @@ sponsors:
 footer:
   social:
   - icon: github
-    link: https://github.com/ECCO-Hackweek/ecco-2024/
+    link: https://github.com/ECCO-Summer-School/ecco-2025
 _copy_without_render:
 - assets
 _extensions:
