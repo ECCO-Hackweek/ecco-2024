@@ -1,0 +1,12 @@
+- title: Paola Cessi
+  avatar: https://scripps.ucsd.edu/sites/default/files/profile_photo/cessi_paola.jpg
+  role: Instructor
+  organizations:
+    - name: Scripps Institution of Oceanography
+  bio: Paola is a professor at Scripps Institution of Oceanography.
+  expertise:
+    - Global Ocean Circulation
+    - Modelling and State Estimation of the Oceans
+    - Atmosphere and Climate
+  user_groups:
+    - Instructor 

@@ -1,0 +1,14 @@
+- title: Jean-Michel Campin
+  avatar: https://clima.caltech.edu/wp-content/uploads/2018/10/Jean-Michel-Campin.jpg
+  role: Instructor
+  organizations:
+    - name: Massachusetts Institute of Technology
+  bio: Jean-Michel is a research scientist at MIT and a member of the ECCO consortium. He has a background in ocean state estimation and the development of the MITgcm model.
+  expertise:
+    - Algorithmic Differentiation
+    - Data assimilation
+  social:
+    - icon: github
+      link: https://github.com/jm-c
+  user_groups:
+    - Instructor 

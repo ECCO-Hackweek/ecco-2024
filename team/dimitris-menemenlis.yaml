@@ -1,0 +1,12 @@
+- title: Dimitris Menemenlis
+  avatar: https://science.jpl.nasa.gov/media/images/DimitrisMenemenlis.max-255x355.jpg
+  role: Instructor
+  organizations:
+    - name: Jet Propulsion Laboratory/Caltech
+  bio: Dimitris is a research scientist at JPL and a member of the ECCO consortium. He has a background in ocean dynamics, numerical coupled ocean-atmosphere-ice modeling, and the development of the MITgcm model.
+  expertise:
+    - MITgcm
+    - Numerical coupled ocean modeling
+    - Ocean-atmosphere-ice interaction
+  user_groups:
+    - Instructor 

@@ -1,0 +1,14 @@
+- title: Matthew Mazloff
+  avatar: https://images.squarespace-cdn.com/content/v1/5a554c15a9db0978da5e344d/1591769839882-B2BLOIX0UZ2F4E7LEBAZ/JRF_REACT_SAB_Matthew_Mazloff.jpg
+  role: Instructor
+  organizations:
+    - name: Scripps Institution of Oceanography
+  bio: Matthew is a physical oceanographer at Scripps Institution of Oceanography. He has a background in ocean circulation and dynamics, ocean modeling and state estimation, remote sensing, and an expert in the dynamics of the Southern Ocean.
+  expertise:
+    - Ocean circulation and dynamics
+    - Ocean modeling and state estimation
+    - Remote Sensing
+    - Southern Ocean
+    - MITgcm
+  user_groups:
+    - Instructor 
