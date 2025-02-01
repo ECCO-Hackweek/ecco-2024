@@ -1,0 +1,12 @@
+- title: Chris Hill
+  avatar: https://impactclimate.mit.edu/wp-content/uploads/2022/07/Chris-Hill-1.jpg
+  role: Instructor
+  organizations:
+    - name: Massachusetts Institute of Technology
+  bio: Chris is a research scientist at MIT and a member of the ECCO consortium. He has a background in ocean modelling and machine learning.
+  expertise:
+    - MITgcm
+    - Machine learning
+    - Numerical ocean modeling
+  user_groups:
+    - Instructor 

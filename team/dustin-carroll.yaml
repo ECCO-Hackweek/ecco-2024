@@ -1,0 +1,16 @@
+- title: Dustin Carroll
+  avatar: https://pace.oceansciences.org/images/ea_carroll.png
+  role: Instructor
+  organizations:
+    - name: Moss Landing Marine Laboratories/San Jose State University
+  bio: Dustin is a research scientist at MLML and a member of the ECCO consortium. He has a background in ocean/ice interaction, biogeophysical modelling and ocean state estimation.
+  expertise:
+    - Algorithmic Differentiation
+    - State Estimation
+    - Ocean/Ice interaction
+    - Ocean Biogeochemistry
+  social:
+    - icon: github
+      link: https://github.com/dustincarrollocean
+  user_groups:
+    - Instructor 

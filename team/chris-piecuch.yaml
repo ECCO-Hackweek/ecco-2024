@@ -1,0 +1,12 @@
+- title: Chris Piecuch
+  avatar: https://www.whoi.edu/wp-content/uploads/2023/07/Christopher-Piecuch.png
+  role: Instructor
+  organizations:
+    - name: Woods Hole Oceanographic Institution
+  bio: Chris is a physical oceanographer at WHOI. He has a background in ocean dynamics, sea level, ocean circulation, and Bayesian methods.
+  expertise:
+    - Ocean dynamics
+    - Sea level
+    - Bayesian methods
+  user_groups:
+    - Instructor 

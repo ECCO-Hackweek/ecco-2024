@@ -1,0 +1,13 @@
+- title: Severine Fournier
+  avatar: https://science.jpl.nasa.gov/media/images/Photo.max-255x355.png
+  role: Instructor
+  organizations:
+    - name: Jet Propulsion Laboratory/Caltech
+  bio: Severine is a research scientist at JPL and a member. She has a background in satellite altimetry and satellite sea surface salinity.
+  expertise:
+    - Satellite altimetry
+    - Satellite sea surface salinity
+    - Earth water cycle
+    - Ocean circulation
+  user_groups:
+    - Instructor 

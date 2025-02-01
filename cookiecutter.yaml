@@ -4,11 +4,11 @@ apply:
   url: https://forms.gle/U18vUG1pqqmRGPdz7
   title: Apply Now!
 banner:
-  description: "A two-week, hands-on program of lectures, hands-on practice, tutorials, peer-to-peer learning, and project based teamwork exploring the theory and practice of ocean state estimation and NASA's ECCO Ocean State Estimate"
+  description: "A two-week course on the theory and applications of NASA's Estimating the Circulation and Climate of the Ocean (ECCO) project."
   start_date: 19 
   end_date: 30 May
   year: 2025
-  location: Asilomar Conference Center, Pacific Grove, California
+  location: Pacific Grove, California
   links:
   - url: intro.html
     title: Event Jupyter Book
@@ -21,14 +21,14 @@ banner:
 event_countdown: "2025-05-19T08:30:00-07:00"
 about:
   description: Join us for a two-week, hands-on exploration of ocean state estimation, held from May 19 to May 30, 2025, in the beautiful coastal setting of Pacific Grove, California. The ECCO Summer School program will blend expert-led lectures, interactive tutorials, peer-to-peer learning, and collaborative team projects to provide a deep dive into the principles and applications of ocean state estimation. Taught by leading researchers in oceanography, geophysical fluid dynamics, and geophysical data science, the course is designed for graduate students, postdocs, and early-career scientists eager to advance their understanding of ocean and climate dynamics. Attendance is free, and limited travel support is available. Don’t miss this opportunity to learn, collaborate, and engage with the cutting edge of ocean research!
-  # learn_more: https://escience.washington.edu/using-data-science/hackweeks
-  # links:
-  #   - url: https://oceanhackweek.org/ohw24/
-  #     title: OceanHackWeek 2024
-  #     new_window: True
-  #   - url: https://icesat-2.hackweek.io/
-  #     title: ICESat-2 Hackweek 2024
-  #     new_window: True
+  learn_more: https://escience.washington.edu/using-data-science/hackweeks
+  links:
+    - url: https://www.ecco-group.org/hackweek2024.htm
+      title: 2024 ECCO Hackweek
+      new_window: True
+    - url: https://www.eccosummerschool.org/
+      title: 2019 ECCO Summer School
+      new_window: True
 applicant_info: Applications are open until March 17, 2025.
 team:
   !include team/team.yaml

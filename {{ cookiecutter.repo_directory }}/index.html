@@ -142,24 +142,24 @@
 <section id="about-section" class="about-section section theme-bg-light">
     <div class="container">
         <h3 class="section-heading text-center mb-3">
-            About {{ cookiecutter.name }}
+            About the {{ cookiecutter.banner.year }} {{ cookiecutter.name }}
         </h3>
         <div class="section-intro single-col-max mx-auto mb-3">
             {{ cookiecutter.about.description }}
         </div>
-        <div class="about-cta text-center mb-4">
+        <!-- <div class="about-cta text-center mb-4">
             <a class="btn btn-secondary btn-lg"
                href="{{ cookiecutter.about.learn_more }}"
                target="_blank">
                 Learn about "Hackweeks"
                 <i class="fas fa-external-link-alt"></i>
             </a>
-        </div>
+        </div> -->
 
         {%- if 'links' in cookiecutter.about %}
             <div class="hero-cta text-center mb-4">
                 <h4 class="mb-3 text-center">
-                     Recent Hackweek Events from Other Groups:
+                     Past ECCO Educational Events:
                 </h4>
                 {%- for link in cookiecutter.about.links %}
                     <a class="btn btn-primary btn-lg mb-3 mx-2"
@@ -194,8 +194,7 @@
             <h4 class="text-white text-center mb-3">
                 Information for Applicants
             </h4>
-            <div
-                class="section-intro text-center single-col-max mx-auto text-white mb-3">
+            <div class="section-intro text-center single-col-max mx-auto text-white mb-3">
                 {{cookiecutter.applicant_info}}
 
                 {%- if 'apply' in cookiecutter %}
